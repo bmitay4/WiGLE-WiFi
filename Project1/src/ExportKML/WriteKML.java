@@ -1,4 +1,4 @@
-package KML;
+package ExportKML;
 
 public class WriteKML {
 
