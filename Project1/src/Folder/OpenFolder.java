@@ -12,18 +12,13 @@ public class OpenFolder {
 	String Location;
 	String Destination;
 	String File_Path;
-	OpenFile Open_File_Object;
-	All_Rows All_Rows_Object;
+	OpenFile Open_File_Object = new OpenFile();
+	All_Rows All_Rows_Object = new All_Rows();
 	ArrayList<List<String>> new_Matrix, temp_Matrix;
 	
-	//Constructor
-	public OpenFolder(String userLocation, String userDestination){
-		this.Location = userDestination;
-		this.Destination = userDestination;
-	
-		openFolder(Location, Destination);
+	public OpenFolder(){
+		
 	}
-	
 	//Generate a matrix with all CSV files
 	public ArrayList<List<String>> openFolder(String location, String destination) {
 		this.new_Matrix = new ArrayList<>();
@@ -39,7 +34,7 @@ public class OpenFolder {
 			}
 			updateMatrix(new_Matrix, temp_Matrix);
 		}		
-		All_Rows_Object = new All_Rows(new_Matrix);
+		All_Rows_Object.getDetails(new_Matrix);
 		
 		return new_Matrix;
 	}

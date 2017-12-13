@@ -1,5 +1,5 @@
 package WiFi;
 
-public class AllWiFi {
+public class All_WiFi {
 
 }
