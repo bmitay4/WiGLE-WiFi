@@ -1,4 +1,4 @@
-package OthersTools;
+package OtherTools;
 
 public class Tools {
 

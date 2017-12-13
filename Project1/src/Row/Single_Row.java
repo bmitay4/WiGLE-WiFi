@@ -14,7 +14,9 @@ public class Single_Row{
 	String MAC;
 	String Signal;
 	String Channel;
+	String Num_Of_WiFi;
 	int Signal_As_Integer;
+	int Num_Of_WiFi_As_Integer;
 	List<String> Single_Row, Ans_Row;
 	
 	public Single_Row(List<String> Single_Row){
@@ -36,6 +38,15 @@ public class Single_Row{
 		return Ans_Row;
 	}
 
+	public String getNum_Of_WiFi() {
+		return Single_Row.get(5);
+	}
+	public int getNum_Of_WiFi_As_Integer() {
+		return Integer.parseInt(Single_Row.get(5));
+	}
+	public void setNum_Of_WiFi(String num_Of_WiFi) {
+		Single_Row.set(5, num_Of_WiFi);
+	}
 	public String getTime() {
 		return this.Single_Row.get(3);
 	}
@@ -66,5 +77,6 @@ public class Single_Row{
 	public String getChannel() {
 		return this.Single_Row.get(4);
 	}
+	
 
 }

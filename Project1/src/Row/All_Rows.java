@@ -32,6 +32,10 @@ public class All_Rows {
 				Rows_Matrix.remove(i);
 				i--;
 			}
+			else if(Rows_Matrix.get(i).contains("01/01/1970  02:00:00") || Rows_Matrix.get(i).contains(null)){ //If the row contain bad and unknown details, remove it
+				Rows_Matrix.remove(i);
+				i--;
+			}
 			else{
 				Single_Row_Object = new Single_Row(Rows_Matrix.get(i));
 				Single_Row = Single_Row_Object.Single_Row_As_List(Rows_Matrix.get(i), ID);

@@ -1,54 +1,48 @@
 package WiFi;
 
 
+import java.util.ArrayList;
+import java.util.List;
+
 import Row.Single_Row;
 
 public class WiFi {
 	String SSID;
 	String MAC;
-	int Channel;
-	int Signal;
+	String Channel;
+	String Signal;
+	List<String> Single_Row;
 	Single_Row Single_Row_Object;
 	
 	
-	public WiFi(String SSID, String MAC, int Channel, int Signal){
-		this.SSID = SSID;
-		this.MAC = MAC;
-		this.Channel = Channel;
-		this.Signal = Signal;
-	}
+	public ArrayList<String> WiFi_Row(List<String> Single_Row){
+		this.Single_Row = Single_Row;
+		
+		Single_Row_Object = new Single_Row(Single_Row);
+		
+		ArrayList<String> Ans_Row = new ArrayList<>();
+		Ans_Row.add(getSSID());
+		Ans_Row.add(getMAC());
+		Ans_Row.add(getChannel());
+		Ans_Row.add(getSignal());
 
-	public String getSSID() {
-		return SSID;
-	}
-
-	public void setSSID(String sSID) {
-		SSID = sSID;
-	}
-
-	public String getMAC() {
-		return MAC;
-	}
-
-	public void setMAC(String mAC) {
-		MAC = mAC;
-	}
-
-	public int getChannel() {
-		return Channel;
-	}
-
-	public void setChannel(int channel) {
-		Channel = channel;
-	}
-
-	public int getSignal() {
-		return Signal;
-	}
-
-	public void setSignal(int signal) {
-		Signal = signal;
+		return Ans_Row;
 	}
 	
 
+	public String getSSID() {
+		return Single_Row.get(6);
+	}
+
+	public String getMAC() {
+		return Single_Row.get(7);
+	}
+
+	public String getChannel() {
+		return Single_Row.get(8);
+	}
+
+	public String getSignal() {
+		return Single_Row.get(9);
+	}
 }
