@@ -1,5 +1,71 @@
 package Filter;
 
-public class DateFilter {
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.Scanner;
 
+import ExportKML.WriteKML;
+import Row.Single_Row_After_Merge;
+
+public class DateFilter {
+	
+	Single_Row_After_Merge Single_Row_After_Merge_Object;
+	WriteKML WriteKML_Object;
+	
+	public void Date(String userDestination, ArrayList<List<String>> Matrix){
+		Scanner flag1 = new Scanner(System.in);
+		Scanner flag2 = new Scanner(System.in);
+		
+		System.out.println("Type the requested Date range");
+		System.out.println("An examples of proper date and time: 2017-02-18 18:21:22");
+		
+		System.out.println("from ");
+		String userStartDate = flag1.nextLine();
+		System.out.println("to ");
+		String userEndDate = flag2.nextLine();
+		
+		dateFilter(Matrix, userStartDate, userEndDate);
+		
+		flag1.close();
+		flag2.close();
+		
+		WriteKML_Object  = new WriteKML();
+		WriteKML_Object.exportKml(userDestination, Matrix);
+	}
+
+	private void dateFilter(ArrayList<List<String>> Matrix, String userStartDate, String userEndDate) {
+		for (int i = 1; i < Matrix.size(); i++) {
+			Single_Row_After_Merge_Object = new Single_Row_After_Merge(Matrix.get(i));
+			String currentlyTime = Single_Row_After_Merge_Object.getTime();
+			if(!compareDate(userStartDate, userEndDate, currentlyTime)){
+				Matrix.remove(i);
+				i--;
+			}
+		}
+	}
+
+	private boolean compareDate(String userStartDate, String userEndDate, String currentlyDate){
+		Date startDate = StringToDate(userStartDate);
+		Date endDate = StringToDate(userEndDate);
+		Date pcDate = StringToDate(currentlyDate);
+		return (pcDate.before(endDate) && pcDate.after(startDate));		
+	}
+
+	private Date StringToDate(String Date){
+		DateFormat tempDate = new SimpleDateFormat("yyyy-mm-dd HH:mm:ss"); 
+		Date temp;
+		try {
+			temp = tempDate.parse(Date);
+			return temp;
+
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+	
 }

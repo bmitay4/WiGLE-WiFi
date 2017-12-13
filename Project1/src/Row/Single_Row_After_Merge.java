@@ -3,8 +3,7 @@ package Row;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Single_Row{
-	
+public class Single_Row_After_Merge {
 	String Time;
 	String ID;
 	String Lat;
@@ -19,7 +18,7 @@ public class Single_Row{
 	int Num_Of_WiFi_As_Integer;
 	List<String> Single_Row, Ans_Row;
 	
-	public Single_Row(List<String> Single_Row){
+	public Single_Row_After_Merge(List<String> Single_Row){
 		this.Single_Row = Single_Row;
 	}
 	public List<String> Single_Row_As_List(List<String> Single_Row, String ID){
@@ -37,49 +36,47 @@ public class Single_Row{
 
 		return Ans_Row;
 	}
+	
+	public String getTime() {
+		return this.Single_Row.get(0);
+	}
+	public String getID() {
+		return Single_Row.get(1);
+	}
+	public String getLat() {
+		return this.Single_Row.get(2);
+	}
 
+	public String getLon() {
+		return this.Single_Row.get(3);
+	}
+	public String getAlt() {
+		return this.Single_Row.get(4);
+	}	
 	public String getNum_Of_WiFi() {
 		return Single_Row.get(5);
 	}
 	public int getNum_Of_WiFi_As_Integer() {
 		return Integer.parseInt(Single_Row.get(5));
 	}
-	public String getID() {
-		return Single_Row.get(1);
-	}
+
 	public void setNum_Of_WiFi(String num_Of_WiFi) {
 		Single_Row.set(5, num_Of_WiFi);
 	}
-	public String getTime() {
-		return this.Single_Row.get(3);
-	}
-
-	public String getLat() {
+	public String getSSID() {
 		return this.Single_Row.get(6);
 	}
-
-	public String getLon() {
+	public String getMAC() {
 		return this.Single_Row.get(7);
 	}
-
-	public String getAlt() {
+	public String getChannel() {
 		return this.Single_Row.get(8);
-	}	
-	public String getSSID() {
-		return this.Single_Row.get(1);
-	}
-	public String getMAC() {
-		return this.Single_Row.get(0);
 	}
 	public String getSignal() {
-		return this.Single_Row.get(5);
+		return this.Single_Row.get(9);
 	}
 	public int getIntegerSignal() {
-		return Integer.parseInt(this.Single_Row.get(5));
+		return Integer.parseInt(this.Single_Row.get(9));
 	}
-	public String getChannel() {
-		return this.Single_Row.get(4);
-	}
-	
 
 }
