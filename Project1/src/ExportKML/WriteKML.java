@@ -14,7 +14,7 @@ import de.micromata.opengis.kml.v_2_2_0.Placemark;
 public class WriteKML {
 
 	Single_Row_After_Merge Single_Row_After_Merge_Object;
-	
+
 	public void exportKml(String userDestination, ArrayList<List<String>> Matrix){
 		final Kml kml = new Kml();
 		Document doc = kml.createAndSetDocument().withName("Wigle KML File").withOpen(true);
@@ -35,7 +35,9 @@ public class WriteKML {
 			String MAC = Single_Row_After_Merge_Object.getMAC();
 			String Channel = Single_Row_After_Merge_Object.getChannel();
 			String Signal = Single_Row_After_Merge_Object.getSignal();
-			createPlacemarkWithChart(doc, folder, longitude, latitude, SSID, MAC, Channel, Signal, time);
+			String TimeStamp = Single_Row_After_Merge_Object.getTimeStamp();
+
+			createPlacemarkWithChart(doc, folder, longitude, latitude, SSID, MAC, Channel, Signal, time, TimeStamp);
 
 			if(Single_Row_After_Merge_Object.getNum_Of_WiFi_As_Integer() > 1){ //If there is more than 1 AP on a single row
 				for (int j = 6; j < Single_Row_After_Merge_Object.getRow_Size(); j = j + 4) {
@@ -43,23 +45,23 @@ public class WriteKML {
 					MAC = Matrix.get(i).get(j + 1);
 					Channel = Matrix.get(i).get(j + 2);
 					Signal = Matrix.get(i).get(j + 3);
-					createPlacemarkWithChart(doc, folder, longitude, latitude, SSID, MAC, Channel, Signal, time);
+					createPlacemarkWithChart(doc, folder, longitude, latitude, SSID, MAC, Channel, Signal, time, TimeStamp);
 
 				}
 			}
 		} 
 
-		// print and save
+		// Print and save
 		try {
 			kml.marshal(new File(userDestination+"KmlFile.kml"));
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
-	private static void createPlacemarkWithChart(Document document, Folder folder,double longitude ,double latitude ,String SSID, String MAC, String Channel, String Signal, String Time) {
+	private static void createPlacemarkWithChart(Document document, Folder folder,double longitude ,double latitude ,String SSID, String MAC, String Channel, String Signal, String Time, String TimeStamp) {
 		Placemark placemark = folder.createAndAddPlacemark();
 		placemark.withName(SSID).withDescription("MAC Address :"+MAC+"</b><br/>Signal: <b>"+Signal+"</b><br/>Frequency: <b>"+Channel+"</b><br/>Time: <b>"+Time+"</b>");
-		placemark.createAndSetPoint().addToCoordinates(longitude, latitude); // set coordinates
+		placemark.createAndSetPoint().addToCoordinates(longitude, latitude);
+		placemark.createAndSetTimeStamp().withWhen(TimeStamp);
 	}
 }

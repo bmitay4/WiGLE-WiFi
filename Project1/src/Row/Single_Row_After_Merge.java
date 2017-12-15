@@ -14,6 +14,9 @@ public class Single_Row_After_Merge {
 	String Signal;
 	String Channel;
 	String Num_Of_WiFi;
+	String Date;
+	String LocalTime;
+	String TimeStamp;
 	int Row_Size;
 	int Signal_As_Integer;
 	int Num_Of_WiFi_As_Integer;
@@ -41,6 +44,15 @@ public class Single_Row_After_Merge {
 	
 	public int getRow_Size() {
 		return this.Single_Row.size();
+	}
+	public String getDate() {
+		return this.Single_Row.get(0).substring(0, 10);
+	}
+	public String getLocalTime() {
+		return this.Single_Row.get(0).substring(11);
+	}
+	public String getTimeStamp() {
+		return getDate()+"T"+getLocalTime()+"Z";
 	}
 	public String getTime() {
 		return this.Single_Row.get(0);
