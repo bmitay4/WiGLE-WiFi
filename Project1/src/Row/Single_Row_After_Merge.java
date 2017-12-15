@@ -14,6 +14,7 @@ public class Single_Row_After_Merge {
 	String Signal;
 	String Channel;
 	String Num_Of_WiFi;
+	int Row_Size;
 	int Signal_As_Integer;
 	int Num_Of_WiFi_As_Integer;
 	List<String> Single_Row, Ans_Row;
@@ -21,6 +22,7 @@ public class Single_Row_After_Merge {
 	public Single_Row_After_Merge(List<String> Single_Row){
 		this.Single_Row = Single_Row;
 	}
+
 	public List<String> Single_Row_As_List(List<String> Single_Row, String ID){
 		ArrayList<String> Ans_Row = new ArrayList<>(); 
 		Ans_Row.add(getTime());
@@ -37,6 +39,9 @@ public class Single_Row_After_Merge {
 		return Ans_Row;
 	}
 	
+	public int getRow_Size() {
+		return this.Single_Row.size();
+	}
 	public String getTime() {
 		return this.Single_Row.get(0);
 	}
@@ -78,5 +83,6 @@ public class Single_Row_After_Merge {
 	public int getIntegerSignal() {
 		return Integer.parseInt(this.Single_Row.get(9));
 	}
+	
 
 }
