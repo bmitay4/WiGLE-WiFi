@@ -4,7 +4,7 @@ public class Main {
 	/**
 	 * Ariel University, OOP Course 
 	 * Course's Mission
-	 * @author חני בקבני, איתי בן משה, אביטל ישראלי
+	 * @author Hani Bakbani, Avital Israeli, Itay Ben Moshe
 	 */
 	public static void main(String[] args) {
 
