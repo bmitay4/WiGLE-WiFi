@@ -8,8 +8,8 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 
-		String userLocation = "C:/Users/איתי בן משה/ArielGit/Project1/Source_Files/";
-		String userDestination = "C:/Users/איתי בן משה/ArielGit/Project1/Source_Files/Out/";
+		String userLocation = "C:/Users/Your_Name/ArielGit/Project1/Source_Files/";
+		String userDestination = "C:/Users/Your_Name/ArielGit/Project1/Source_Files/Out/";
 
 		Run Go = new Run();
 		Go.Program(userLocation, userDestination);
