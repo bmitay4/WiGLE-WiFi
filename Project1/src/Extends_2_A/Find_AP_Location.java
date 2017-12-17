@@ -8,15 +8,21 @@ import File.OpenFile;
 public class Find_AP_Location {
 
 	String userLocation;
-	ArrayList<List<String>> Matrix, AP_Matrix;
-	OpenFile OpenFile_Object = new OpenFile();
-	MAC_Matrix Look_For_MAC_Object = new MAC_Matrix();
-	AP_Matrix AP_Matrix_Obj = new AP_Matrix();
-
-	public Find_AP_Location(String userLocation, String MAC){
+	private ArrayList<List<String>> Matrix, AP_Matrix;
+	private OpenFile OpenFile_Object = new OpenFile();
+	private MAC_Matrix MAC_Matrix_Obj = new MAC_Matrix();
+	private Algorithm_A Algo_Obj;
+	
+	public void Program(String userLocation, String MAC){
+		this.userLocation = userLocation;
 		this.Matrix = OpenFile_Object.openFiles(userLocation);
-		AP_Matrix = Look_For_MAC_Object.isContainsMAC(this.Matrix, MAC);
+		AP_Matrix = MAC_Matrix_Obj.isContainsMAC(this.Matrix, MAC);
 		if(AP_Matrix.size() == 0) System.out.println("MAC Address not found");
+		else{
+			Algo_Obj = new Algorithm_A(AP_Matrix);
+			System.out.println("Approximate Location of MAC address" + MAC + " is:\nLat: "+Algo_Obj.Lat+""
+					+ " ,Lon: "+Algo_Obj.Lon+" ,Alt: "+Algo_Obj.Alt);
+		}
 	}
 
 }

@@ -5,7 +5,8 @@ import java.util.List;
 
 import Row.Single_Row_After_Merge;
 import WiFi.All_WiFi;
-import WiFi.WiFi;
+import WiFi.WiFi_After_Merge;
+import WiFi.WiFi_Algorithm_A;
 
 public class MAC_Matrix {
 
@@ -13,24 +14,19 @@ public class MAC_Matrix {
 	All_WiFi All_WiFi_Object;
 	Single_Row_After_Merge Row_After_Merge_Obj;
 	ArrayList<List<String>> AP_Matrix;
-	WiFi WiFi_Obj = new WiFi();
-
+	WiFi_After_Merge WiFi_Obj = new WiFi_After_Merge();
+	WiFi_Algorithm_A WiFi_Algo_A_Obj;
 
 	public ArrayList<List<String>> isContainsMAC(ArrayList<List<String>> Matrix, String MAC){
 		AP_Matrix = new ArrayList<>();
 		temp_Row = new ArrayList<>();
 
 		for (int i = 1; i < Matrix.size() && AP_Matrix.size() < 3; i++) {
-			WiFi_Obj.WiFi_Row(Matrix.get(i));
-			if(WiFi_Obj.getMAC().equals(MAC)){
-				AP_Matrix.add(WiFi_Obj.WiFi_Row(Matrix.get(i)));
-			}
-			else if(Row_After_Merge_Obj.getNum_Of_WiFi_As_Integer() > 1){
-				WiFi_Row = All_WiFi_Object.All_WiFi_Row(Matrix.get(i));
-				if(WiFi_Row.contains(MAC)){
-					temp_Row = All_WiFi_Object.WiFi_Row_By_MAC(MAC);
-					AP_Matrix.add(temp_Row);
-				}
+			All_WiFi_Object = new All_WiFi();
+			WiFi_Row = All_WiFi_Object.All_WiFi_Row(Matrix.get(i));
+			if(WiFi_Row.contains(MAC)){
+				temp_Row = All_WiFi_Object.WiFi_Row_By_MAC(MAC);
+				AP_Matrix.add(temp_Row);
 			}
 		}
 		return AP_Matrix;
