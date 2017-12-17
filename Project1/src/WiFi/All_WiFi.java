@@ -1,11 +1,13 @@
 package WiFi;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import Row.Single_Row_After_Merge;
 
 public class All_WiFi {
 
+	
 	List<String> Single_Row, WiFi_Row;
 	Single_Row_After_Merge Single_Row_After_Merge_Object;
 
@@ -14,5 +16,42 @@ public class All_WiFi {
 		WiFi_Row.addAll(6, Single_Row);
 		return WiFi_Row;
 	}
+	public List<String> WiFi_Row_By_MAC(String MAC){
+		ArrayList<String> Ans_Row = new ArrayList<>();
+		Ans_Row.add(getSSID(MAC));
+		Ans_Row.add(getMAC(MAC));
+		Ans_Row.add(getLat(MAC));
+		Ans_Row.add(getLon(MAC));
+		Ans_Row.add(getAlt(MAC));
+		Ans_Row.add(getChannel(MAC));
+		Ans_Row.add(getSignal(MAC));
+		return Ans_Row;
+	}
+	
 
+	public String getLat(String MAC){
+		return this.WiFi_Row.get(2);
+	}
+	public String getLon(String MAC){
+		return this.WiFi_Row.get(3);
+	}
+	public String getAlt(String MAC){
+		return this.WiFi_Row.get(4);
+	}
+	public String getMAC(String MAC){
+		int index = this.WiFi_Row.indexOf(MAC);
+		return this.WiFi_Row.get(index);
+	}
+	public String getSSID(String MAC){
+		int index = this.WiFi_Row.indexOf(MAC);
+		return this.WiFi_Row.get(index - 1);
+	}
+	public String getChannel(String MAC){
+		int index = this.WiFi_Row.indexOf	(MAC);
+		return this.WiFi_Row.get(index + 1);
+	}
+	public String getSignal(String MAC){
+		int index = this.WiFi_Row.indexOf	(MAC);
+		return this.WiFi_Row.get(index + 2);
+	}
 }

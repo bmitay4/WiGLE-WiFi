@@ -11,6 +11,9 @@ public class WiFi {
 	String MAC;
 	String Channel;
 	String Signal;
+	String Lon;
+	String Lat;
+	String Alt;
 	List<String> Single_Row;
 	Single_Row Single_Row_Object;
 	
@@ -23,26 +26,38 @@ public class WiFi {
 		ArrayList<String> Ans_Row = new ArrayList<>();
 		Ans_Row.add(getSSID());
 		Ans_Row.add(getMAC());
+		Ans_Row.add(getLat());
+		Ans_Row.add(getLon());
+		Ans_Row.add(getAlt());	
 		Ans_Row.add(getChannel());
 		Ans_Row.add(getSignal());
 
 		return Ans_Row;
 	}
 	
+	public String getLat() {
+		return this.Single_Row.get(2);
+	}
 
+	public String getLon() {
+		return this.Single_Row.get(3);
+	}
+	public String getAlt() {
+		return this.Single_Row.get(4);
+	}	
 	public String getSSID() {
-		return Single_Row.get(6);
+		return this.Single_Row.get(6);
 	}
 
 	public String getMAC() {
-		return Single_Row.get(7);
+		return this.Single_Row.get(7);
 	}
 
 	public String getChannel() {
-		return Single_Row.get(8);
+		return this.Single_Row.get(8);
 	}
 
 	public String getSignal() {
-		return Single_Row.get(9);
+		return this.Single_Row.get(9);
 	}
 }
