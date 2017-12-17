@@ -95,6 +95,4 @@ public class Single_Row_After_Merge {
 	public int getIntegerSignal() {
 		return Integer.parseInt(this.Single_Row.get(9));
 	}
-	
-
 }

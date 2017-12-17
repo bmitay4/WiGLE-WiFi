@@ -14,7 +14,6 @@ import de.micromata.opengis.kml.v_2_2_0.Placemark;
 public class WriteKML {
 
 	Single_Row_After_Merge Single_Row_After_Merge_Object;
-
 	public void exportKml(String userDestination, ArrayList<List<String>> Matrix){
 		final Kml kml = new Kml();
 		Document doc = kml.createAndSetDocument().withName("Wigle KML File").withOpen(true);
@@ -39,7 +38,7 @@ public class WriteKML {
 
 			createPlacemarkWithChart(doc, folder, longitude, latitude, SSID, MAC, Channel, Signal, time, TimeStamp);
 
-			if(Single_Row_After_Merge_Object.getNum_Of_WiFi_As_Integer() > 1){ //If there is more than 1 AP on a single row
+			if(Single_Row_After_Merge_Object.getNum_Of_WiFi_As_Integer() > 1){ //If there is more than 1 AP in a single row
 				for (int j = 6; j < Single_Row_After_Merge_Object.getRow_Size(); j = j + 4) {
 					SSID = Matrix.get(i).get(j);
 					MAC = Matrix.get(i).get(j + 1);
