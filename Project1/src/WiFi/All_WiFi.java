@@ -7,13 +7,16 @@ import Row.Single_Row_After_Merge;
 
 public class All_WiFi {
 
-	
-	List<String> Single_Row, WiFi_Row;
+
+	ArrayList<String> Single_Row, WiFi_Row;
 	Single_Row_After_Merge Single_Row_After_Merge_Object;
 
 	public List<String> All_WiFi_Row(List<String> Single_Row){
 		Single_Row_After_Merge_Object = new Single_Row_After_Merge(Single_Row);
-		WiFi_Row.addAll(6, Single_Row);
+		WiFi_Row = new ArrayList<>();
+		for (int i = 0; i < Single_Row.size(); i++) {
+			WiFi_Row.add(Single_Row.get(i));
+		}		
 		return WiFi_Row;
 	}
 	public List<String> WiFi_Row_By_MAC(String MAC){
@@ -27,7 +30,7 @@ public class All_WiFi {
 		Ans_Row.add(getSignal(MAC));
 		return Ans_Row;
 	}
-	
+
 
 	public String getLat(String MAC){
 		return this.WiFi_Row.get(2);
