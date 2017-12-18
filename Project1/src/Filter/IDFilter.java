@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 import ExportKML.WriteKML;
+import File.WriteFile;
 import Row.Single_Row_After_Merge;
 
 public class IDFilter {
@@ -12,6 +13,8 @@ public class IDFilter {
 	String userID;
 	Single_Row_After_Merge Single_Row_After_Merge_Object;
 	WriteKML WriteKML_Object;
+	WriteFile Write_File_Object = new WriteFile();
+
 
 	public void ID(String userDestination, ArrayList<List<String>> Matrix){
 		System.out.println("Type the requested phone ID");
@@ -21,6 +24,7 @@ public class IDFilter {
 		flag.close();
 
 		WriteKML_Object  = new WriteKML();
+		Write_File_Object.writeFiles(userDestination+"IDSort.csv", Matrix);
 		WriteKML_Object.exportKml(userDestination, Matrix);
 	}
 

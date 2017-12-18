@@ -1,0 +1,3311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <name>Wigle KML File</name>
+        <open>1</open>
+        <Folder>
+            <name>Wireless access point</name>
+            <open>1</open>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:42:68&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:08&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:08Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21134308,32.10487307</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:42:68&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:08&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:08Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21134308,32.10487307</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:44:58&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-88&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:08&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:08Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21134308,32.10487307</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:44:58&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-77&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:24&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:24Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21107852,32.1050222</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:44:58&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-77&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:24&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:24Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21107852,32.1050222</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:2d:e8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-88&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:24&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:24Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21107852,32.1050222</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:25:48&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-88&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:27&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:27Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21092655,32.10503208</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:05:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-90&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:33&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:33Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21060853,32.10495375</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:ed:48&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-89&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:36&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:36Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21044203,32.10490203</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:ed:48&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-89&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:36&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:36Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21044203,32.10490203</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:44:88&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-88&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:36&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:36Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21044203,32.10490203</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:2d:e8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:36&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:36Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21044203,32.10490203</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>yosh</name>
+                <description>MAC Address :00:11:6b:11:7e:0c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:36&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:36Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21044203,32.10490203</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:05:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-82&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:36&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:36Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21044203,32.10490203</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:41:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-90&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:39&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:39Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21025994,32.1048406</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:41:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-90&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:39&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:39Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21025994,32.1048406</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2b:c8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-90&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:39&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:39Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21025994,32.1048406</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:2b:e8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:39&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:39Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21025994,32.1048406</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:42:68&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-86&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:39&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:39Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21025994,32.1048406</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>outsense</name>
+                <description>MAC Address :c2:6c:ac:a0:7b:4d&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-80&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:39&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:39Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21025994,32.1048406</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Guest</name>
+                <description>MAC Address :a2:6c:ac:a0:7b:4d&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-82&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:39&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:39Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21025994,32.1048406</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>shapedo</name>
+                <description>MAC Address :c2:6c:ac:9f:fb:1f&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-82&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:39&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:39Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21025994,32.1048406</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>EVE</name>
+                <description>MAC Address :90:6c:ac:a0:7b:4d&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:39&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:39Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21025994,32.1048406</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:44:58&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-79&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:42&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:42Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21007474,32.10475343</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:44:58&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-79&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:42&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:42Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21007474,32.10475343</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:05:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-86&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:42&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:42Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21007474,32.10475343</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:05:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-75&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:42&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:42Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21007474,32.10475343</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>outsense</name>
+                <description>MAC Address :c2:6c:ac:a0:7b:4d&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-72&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:42&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:42Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21007474,32.10475343</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Guest</name>
+                <description>MAC Address :a2:6c:ac:a0:7b:4d&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-71&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:42&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:42Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21007474,32.10475343</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Afikim_Wifi</name>
+                <description>MAC Address :00:1a:dd:f5:df:c5&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:42&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:42Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21007474,32.10475343</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>TP-LINK_ADD150</name>
+                <description>MAC Address :74:ea:3a:ad:d1:50&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-88&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:42&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:42Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21007474,32.10475343</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:05:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-80&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:45&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:45Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20990936,32.10466627</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:05:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-80&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:45&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:45Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20990936,32.10466627</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:25:48&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-80&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:45&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:45Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20990936,32.10466627</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>outsense</name>
+                <description>MAC Address :c2:6c:ac:a0:7b:4d&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-67&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:45&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:45Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20990936,32.10466627</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>EVE</name>
+                <description>MAC Address :90:6c:ac:a0:7b:4d&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-69&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:45&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:45Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20990936,32.10466627</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Guest</name>
+                <description>MAC Address :90:6c:ac:a0:60:4d&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-69&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:45&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:45Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20990936,32.10466627</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>incentive2</name>
+                <description>MAC Address :a2:6c:ac:a0:60:4d&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-70&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:45&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:45Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20990936,32.10466627</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>DIRECT-B1-HP DeskJet 3830 series</name>
+                <description>MAC Address :70:5a:0f:57:04:17&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-74&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:45&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:45Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20990936,32.10466627</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:96:05:37&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:45&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:45Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20990936,32.10466627</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>TP-LINK_ADD150</name>
+                <description>MAC Address :74:ea:3a:ad:d1:50&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-69&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:48&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:48Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20975804,32.10457483</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>TP-LINK_ADD150</name>
+                <description>MAC Address :74:ea:3a:ad:d1:50&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-69&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:48&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:48Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20975804,32.10457483</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:23:58&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:48&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:48Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20975804,32.10457483</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CliClap</name>
+                <description>MAC Address :90:6c:ac:9f:f1:c5&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-82&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;2&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:51&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:51Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20960715,32.10448173</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CliClap</name>
+                <description>MAC Address :90:6c:ac:9f:f1:c5&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-82&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;2&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:51&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:51Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20960715,32.10448173</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :24:79:2a:2c:5b:d8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-78&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:51&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:51Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20960715,32.10448173</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>artsim</name>
+                <description>MAC Address :a2:6c:ac:a0:18:29&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-80&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:54&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:54Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20946023,32.10440239</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>artsim</name>
+                <description>MAC Address :a2:6c:ac:a0:18:29&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-80&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:54&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:54Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20946023,32.10440239</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:1d:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:54&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:54Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20946023,32.10440239</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:cc:d8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-92&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:54&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:54Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20946023,32.10440239</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:2d:e8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-91&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:53:57&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:53:57Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20932755,32.10430866</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>shapedo</name>
+                <description>MAC Address :c2:6c:ac:9f:fb:1f&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:00&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:00Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20917533,32.10419361</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>shapedo</name>
+                <description>MAC Address :c2:6c:ac:9f:fb:1f&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:00&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:00Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20917533,32.10419361</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:cc:d8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-82&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:00&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:00Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20917533,32.10419361</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>paysday</name>
+                <description>MAC Address :b2:6c:ac:9f:f1:c5&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-92&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;2&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:00&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:00Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20917533,32.10419361</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :ec:8c:a2:26:d3:68&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-64&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:00&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:00Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20917533,32.10419361</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:1c:b8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-81&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:00&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:00Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20917533,32.10419361</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :ec:8c:a2:26:b0:e8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-86&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:00&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:00Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20917533,32.10419361</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :00:02:6f:8e:64:67&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-91&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:00&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:00Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20917533,32.10419361</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:05:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-76&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:03&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:03Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20902709,32.10406321</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:05:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-76&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:03&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:03Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20902709,32.10406321</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>magneto</name>
+                <description>MAC Address :b2:6c:ac:a0:7b:4d&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-78&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:03&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:03Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20902709,32.10406321</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:cc:d8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-76&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:03&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:03Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20902709,32.10406321</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>paysday</name>
+                <description>MAC Address :b2:6c:ac:9f:f1:c5&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-82&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;2&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:03&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:03Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20902709,32.10406321</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>sinusafe</name>
+                <description>MAC Address :b2:6c:ac:a0:3d:eb&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-75&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;3&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:03&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:03Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20902709,32.10406321</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:28:e8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-76&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:03&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:03Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20902709,32.10406321</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:fd:48&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:03&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:03Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20902709,32.10406321</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :8c:0c:90:2e:16:88&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:03&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:03Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20902709,32.10406321</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:23:58&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-79&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:06&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:06Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20892354,32.10391893</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:1d:7c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-89&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:09&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:09Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20883622,32.10376365</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:1d:7c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-89&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:09&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:09Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20883622,32.10376365</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :ec:8c:a2:08:78:c8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:09&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:09Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20883622,32.10376365</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :e0:10:7f:1a:bd:98&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-88&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:09&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:09Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20883622,32.10376365</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:d2:88&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-89&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:09&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:09Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20883622,32.10376365</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:28:e8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-65&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:12&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:12Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20878096,32.10359721</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:28:e8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-65&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:12&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:12Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20878096,32.10359721</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :ec:8c:a2:08:78:c8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-77&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:12&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:12Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20878096,32.10359721</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CliClap</name>
+                <description>MAC Address :90:6c:ac:9f:f1:c5&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;2&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:15&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:15Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20875946,32.10346795</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>CliClap</name>
+                <description>MAC Address :90:6c:ac:9f:f1:c5&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;2&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:15&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:15Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20875946,32.10346795</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:d2:88&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-77&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:15&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:15Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20875946,32.10346795</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :ec:8c:a2:08:94:18&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-69&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:15&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:15Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20875946,32.10346795</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:12:7c:c8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-73&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:15&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:15Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20875946,32.10346795</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:1d:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-81&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:18&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:18Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20874462,32.10333565</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:1d:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-81&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:18&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:18Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20874462,32.10333565</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :ec:8c:a2:08:94:18&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-61&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:18&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:18Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20874462,32.10333565</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:f4:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:18&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:18Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20874462,32.10333565</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :34:8f:27:20:8c:18&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-86&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:18&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:18Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20874462,32.10333565</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :ec:8c:a2:26:d3:68&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:21&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:21Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20873143,32.10318952</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :ec:8c:a2:26:d3:68&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:21&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:21Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20873143,32.10318952</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :ec:8c:a2:26:b0:e8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:21&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:21Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20873143,32.10318952</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:f4:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-78&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:21&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:21Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20873143,32.10318952</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:96:d2:87&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:21&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:21Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20873143,32.10318952</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:12:90:b8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-71&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:21&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:21Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20873143,32.10318952</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:28:f8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-80&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:21&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:21Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20873143,32.10318952</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :8c:0c:90:2d:75:e8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:21&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:21Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20873143,32.10318952</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2f:68&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-90&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:21&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:21Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20873143,32.10318952</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:05:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-88&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:24&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:24Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20871988,32.10301827</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:05:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-88&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:24&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:24Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20871988,32.10301827</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :8c:0c:90:2e:16:88&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:24&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:24Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20871988,32.10301827</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2f:68&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-82&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:24&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:24Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20871988,32.10301827</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:33:c8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:24&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:24Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20871988,32.10301827</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:f1:98&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:24&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:24Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20871988,32.10301827</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :8c:0c:90:2d:75:e8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-77&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:27&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:27Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20871899,32.10282362</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :8c:0c:90:2d:75:e8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-77&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:27&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:27Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20871899,32.10282362</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2f:68&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-71&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:27&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:27Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20871899,32.10282362</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:33:c8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-75&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:27&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:27Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20871899,32.10282362</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>HelpDesk</name>
+                <description>MAC Address :f8:d1:11:77:77:c6&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-70&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:27&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:27Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20871899,32.10282362</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :8c:0c:90:ad:75:e3&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-76&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:27&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:27Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20871899,32.10282362</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:f4:7c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:27&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:27Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20871899,32.10282362</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :ec:8c:a2:08:78:cc&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;48&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:27&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:27Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20871899,32.10282362</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:11:ac&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-90&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:27&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:27Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20871899,32.10282362</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:28:f8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-73&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:30&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:30Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20876629,32.10263124</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:28:f8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-73&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:30&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:30Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20876629,32.10263124</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Bezeq Free</name>
+                <description>MAC Address :62:ab:1b:60:b4:cb&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-86&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;8&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:30&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:30Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20876629,32.10263124</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>036518749</name>
+                <description>MAC Address :a0:ab:1b:60:b4:ca&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;8&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:30&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:30Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20876629,32.10263124</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :ec:8c:a2:26:b1:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-69&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:30&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:30Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20876629,32.10263124</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:11:a8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-73&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:30&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:30Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20876629,32.10263124</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:ee:98&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-82&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:30&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:30Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20876629,32.10263124</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:28:e8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-77&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:33&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:33Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20884914,32.10244119</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:28:e8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-77&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:33&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:33Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20884914,32.10244119</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :ec:8c:a2:08:78:c8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-86&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:33&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:33Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20884914,32.10244119</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:d2:88&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-86&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:33&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:33Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20884914,32.10244119</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:12:7c:c8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-73&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:33&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:33Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20884914,32.10244119</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:f1:98&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-79&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:33&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:33Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20884914,32.10244119</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:33:cc&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-86&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;48&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:33&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:33Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20884914,32.10244119</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :ec:8c:a2:08:94:18&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-73&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:36&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:36Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20894955,32.1022576</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :ec:8c:a2:08:94:18&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-73&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:36&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:36Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20894955,32.1022576</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :34:8f:27:20:8c:18&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-86&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:36&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:36Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20894955,32.1022576</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2f:68&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-63&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:36&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:36Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20894955,32.1022576</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Bezeq Free</name>
+                <description>MAC Address :62:ab:1b:60:b4:cb&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-78&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;8&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:36&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:36Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20894955,32.1022576</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2b:dc&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-74&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:36&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:36Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20894955,32.1022576</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2b:d8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-69&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:36&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:36Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20894955,32.1022576</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:f4:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-77&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:39&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:39Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20912829,32.10212198</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:f4:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-77&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:39&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:39Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20912829,32.10212198</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:12:90:b8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-82&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:39&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:39Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20912829,32.10212198</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:f1:98&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-73&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:39&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:39Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20912829,32.10212198</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>lab_6.1.3</name>
+                <description>MAC Address :c4:12:f5:f6:a0:18&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-80&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;3&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:39&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:39Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20912829,32.10212198</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :ec:8c:a2:08:94:1c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-70&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:42&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:42Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20935702,32.1020322</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :ec:8c:a2:08:94:1c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-70&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:42&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:42Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20935702,32.1020322</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:1e:68&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-80&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:42&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:42Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20935702,32.1020322</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:3a:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-76&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:45&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:45Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20960153,32.10196459</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:28:f8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-76&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:48&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:48Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.2098381,32.10199722</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:28:f8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-76&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:48&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:48Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.2098381,32.10199722</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:33:c8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-78&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:48&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:48Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.2098381,32.10199722</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>HelpDesk</name>
+                <description>MAC Address :f8:d1:11:77:77:c6&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-88&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:48&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:48Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.2098381,32.10199722</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>036518749</name>
+                <description>MAC Address :a0:ab:1b:60:b4:ca&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;8&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:48&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:48Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.2098381,32.10199722</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :ec:8c:a2:26:b1:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:48&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:48Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.2098381,32.10199722</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:11:a8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-79&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:48&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:48Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.2098381,32.10199722</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>yosh</name>
+                <description>MAC Address :00:11:6b:11:02:b7&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-81&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:48&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:48Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.2098381,32.10199722</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2f:68&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:51&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:51Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20998301,32.10212708</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2f:68&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:51&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:51Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20998301,32.10212708</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Bezeq Free</name>
+                <description>MAC Address :62:ab:1b:60:b4:cb&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;8&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:51&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:51Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20998301,32.10212708</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2b:dc&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-74&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:51&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:51Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20998301,32.10212708</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2b:d8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:51&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:51Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20998301,32.10212708</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>KCG-ADSL</name>
+                <description>MAC Address :00:1d:aa:81:d8:3c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;3&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:54:54&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:54:54Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21003281,32.10226153</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>KCG-ADSL</name>
+                <description>MAC Address :00:1d:aa:81:d8:3c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-69&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;3&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:11&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:11Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20983303,32.10290524</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>KCG-ADSL</name>
+                <description>MAC Address :00:1d:aa:81:d8:3c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-69&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;3&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:11&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:11Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20983303,32.10290524</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:12:af:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-79&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:11&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:11Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20983303,32.10290524</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2b:88&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-86&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:11&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:11Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20983303,32.10290524</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:30:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:11&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:11Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20983303,32.10290524</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:11:a8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:15&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:15Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20978446,32.10305306</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:11:a8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:15&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:15Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20978446,32.10305306</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:1e:68&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-86&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:15&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:15Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20978446,32.10305306</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:3a:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-89&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:15&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:15Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20978446,32.10305306</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>2.4V1</name>
+                <description>MAC Address :40:a5:ef:7a:17:f2&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-76&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:15&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:15Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20978446,32.10305306</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:ec:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-78&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:15&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:15Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20978446,32.10305306</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:06:bc&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-88&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;48&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:15&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:15Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20978446,32.10305306</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:ee:98&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:15&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:15Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20978446,32.10305306</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>lab_6.1.3</name>
+                <description>MAC Address :c4:12:f5:f6:a0:18&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;3&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:17&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:17Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20977295,32.10314139</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:ed:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-74&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:20&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:20Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20979335,32.10330416</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:ed:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-74&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:20&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:20Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20979335,32.10330416</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:06:b8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-75&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:20&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:20Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20979335,32.10330416</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:ed:48&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:20&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:20Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20979335,32.10330416</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:12:90:b8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:20&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:20Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20979335,32.10330416</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>AUC_4_2_24</name>
+                <description>MAC Address :d8:5d:4c:9e:69:22&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:25&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:25Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20992695,32.10357832</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>AUC_4_2_24</name>
+                <description>MAC Address :d8:5d:4c:9e:69:22&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:25&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:25Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20992695,32.10357832</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:fd:48&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-79&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:25&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:25Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20992695,32.10357832</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:06:bc&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-72&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;48&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:30&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:30Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21019984,32.10379261</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:06:bc&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-72&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;48&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:30&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:30Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21019984,32.10379261</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:06:b8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-68&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:30&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:30Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21019984,32.10379261</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:1c:b8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-89&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:30&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:30Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21019984,32.10379261</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :24:79:2a:2c:5c:18&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-81&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:30&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:30Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21019984,32.10379261</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :24:79:2a:2b:bd:88&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:30&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:30Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21019984,32.10379261</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :24:79:2a:2b:07:b8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:30&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:30Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21019984,32.10379261</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>KCG-ADSL</name>
+                <description>MAC Address :00:1d:aa:81:d8:3c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-88&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;3&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:33&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:33Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21040928,32.10392655</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>KCG-ADSL</name>
+                <description>MAC Address :00:1d:aa:81:d8:3c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-88&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;3&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:33&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:33Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21040928,32.10392655</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:12:af:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-75&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:33&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:33Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21040928,32.10392655</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2b:88&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:33&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:33Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21040928,32.10392655</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:30:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:33&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:33Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21040928,32.10392655</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :24:79:2a:2c:5b:d8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:36&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:36Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21064312,32.10403138</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:ed:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-76&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:40&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:40Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21091349,32.10412387</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:ed:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-76&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:40&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:40Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21091349,32.10412387</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:ed:48&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:40&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:40Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21091349,32.10412387</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:12:90:b8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:40&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:40Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21091349,32.10412387</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :8c:0c:90:2f:d3:d8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-78&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:40&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:40Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21091349,32.10412387</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>AUC_4_2_24</name>
+                <description>MAC Address :d8:5d:4c:9e:69:22&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:42&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:42Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21101715,32.10415215</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>AUC_4_2_24</name>
+                <description>MAC Address :d8:5d:4c:9e:69:22&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:42&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:42Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21101715,32.10415215</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:fd:48&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-79&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:42&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:42Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21101715,32.10415215</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:41:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-71&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:45&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:45Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21118813,32.10418089</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:06:bc&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-72&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;48&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:48&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:48Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21138319,32.10423611</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:06:bc&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-72&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;48&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:48&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:48Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21138319,32.10423611</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:06:b8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:48&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:48Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21138319,32.10423611</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:1c:b8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-89&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:48&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:48Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21138319,32.10423611</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :24:79:2a:2c:5c:18&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-81&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:48&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:48Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21138319,32.10423611</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :24:79:2a:2b:bd:88&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:48&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:48Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21138319,32.10423611</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :24:79:2a:2b:07:b8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:48&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:48Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21138319,32.10423611</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:95:41:77&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-82&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:48&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:48Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21138319,32.10423611</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:44:88&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-77&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:51&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:51Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21150642,32.10434812</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:44:88&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-77&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:51&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:51Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21150642,32.10434812</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:ed:48&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-86&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:51&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:51Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21150642,32.10434812</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>yosh</name>
+                <description>MAC Address :00:11:6b:11:7e:0c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-93&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:51&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:51Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21150642,32.10434812</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:ed:48&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-80&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:55:54&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:55:54Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21158147,32.10450422</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>IT-MNG</name>
+                <description>MAC Address :1c:b9:c4:16:cd:18&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-93&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:56:00&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:56:00Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.2115156,32.10476714</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>IT-MNG</name>
+                <description>MAC Address :1c:b9:c4:16:cd:18&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-93&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:56:00&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:56:00Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.2115156,32.10476714</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:56:cd:18&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-92&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:56:00&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:56:00Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.2115156,32.10476714</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>IT-MNG</name>
+                <description>MAC Address :1c:b9:c4:15:fd:e8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:56:02&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:56:02Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.2114539,32.10481492</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>IT-MNG</name>
+                <description>MAC Address :1c:b9:c4:15:fd:e8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:56:02&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:56:02Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.2114539,32.10481492</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2b:c8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-89&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:56:02&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:56:02Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.2114539,32.10481492</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:44:58&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-88&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:56:05&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:56:05Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21137457,32.10487501</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2b:c8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-81&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:56:08&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:56:08Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21135337,32.10488619</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2b:c8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-81&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:56:08&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:56:08Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21135337,32.10488619</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:2b:e8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:56:08&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:56:08Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21135337,32.10488619</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:05:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-91&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 08:56:08&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T08:56:08Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21135337,32.10488619</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:92:af:77&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-79&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;40&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:00:27&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:00:27Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20969913393224,32.10296049325714</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:92:af:77&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-79&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;40&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:00:27&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:00:27Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20969913393224,32.10296049325714</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>DIRECT-3B-HP DeskJet 3630 series</name>
+                <description>MAC Address :3c:52:82:ef:c4:3c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-72&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:00:27&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:00:27Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20969913393224,32.10296049325714</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:ed:3c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-74&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:00:27&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:00:27Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20969913393224,32.10296049325714</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:30:3c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-76&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:00:27&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:00:27Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20969913393224,32.10296049325714</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:94:30:37&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-79&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:00:27&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:00:27Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20969913393224,32.10296049325714</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:f1:5c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;52&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:00:27&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:00:27Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20969913393224,32.10296049325714</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Partner</name>
+                <description>MAC Address :42501_7211_3084804&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:00:27&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:00:27Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20969913393224,32.10296049325714</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>OOP_course</name>
+                <description>MAC Address :e4:95:6e:40:87:1a&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-12&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:01:37&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:01:37Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20966517514508,32.10298811526831</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>OOP_course</name>
+                <description>MAC Address :e4:95:6e:40:87:1a&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-12&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:01:37&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:01:37Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20966517514508,32.10298811526831</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Partner</name>
+                <description>MAC Address :42501_7211_3084804&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-79&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:01:37&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:01:37Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20966517514508,32.10298811526831</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Partner</name>
+                <description>MAC Address :42501_7211_3084804&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-73&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:01:49&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:01:49Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20966322455728,32.1029901313545</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:12:af:7c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-77&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;40&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:02:19&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:02:19Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20964526642827,32.103006095311606</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:ec:3c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-82&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:02:25&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:02:25Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209661717337,32.10302056472078</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:ec:3c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-82&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:02:25&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:02:25Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209661717337,32.10302056472078</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:06:b8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-89&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:02:25&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:02:25Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209661717337,32.10302056472078</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:12:af:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-74&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:02:28&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:02:28Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20966235296473,32.10302066887821</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:12:af:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-74&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:02:28&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:02:28Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20966235296473,32.10302066887821</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:96:ed:37&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-82&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:02:28&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:02:28Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20966235296473,32.10302066887821</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:95:ec:37&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:02:28&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:02:28Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20966235296473,32.10302066887821</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:96:ed:37&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-77&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:02:34&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:02:34Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20966614792174,32.10302100154479</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:95:1c:b7&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-90&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:02:43&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:02:43Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20968826555523,32.10303985479879</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:06:b8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-79&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:03:01&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:03:01Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20968224845495,32.103276346028004</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:94:2b:87&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-88&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:03:07&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:03:07Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209710253406485,32.10337113537652</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:96:ed:47&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-91&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:03:10&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:03:10Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.2097119010955,32.103422735825944</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:96:ed:47&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-91&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:03:10&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:03:10Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.2097119010955,32.103422735825944</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:95:ed:b7&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-92&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;48&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:03:10&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:03:10Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.2097119010955,32.103422735825944</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:e5:a8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-81&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:03:13&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:03:13Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209694768890756,32.10340998113717</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:e5:a8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-81&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:03:13&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:03:13Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209694768890756,32.10340998113717</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:96:f1:57&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-82&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;52&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:03:13&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:03:13Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209694768890756,32.10340998113717</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2b:8c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-82&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:03:19&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:03:19Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20965551102127,32.10332786597918</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2b:8c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-82&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:03:19&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:03:19Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20965551102127,32.10332786597918</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:1c:b8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-75&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:03:19&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:03:19Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20965551102127,32.10332786597918</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>AUC_4_2_24</name>
+                <description>MAC Address :d8:5d:4c:9e:69:22&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-78&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:03:19&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:03:19Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20965551102127,32.10332786597918</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2b:88&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-80&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:03:22&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:03:22Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20965870751324,32.10328570765323</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:12:af:7c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-72&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;40&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:03:57&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:03:57Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20968182189735,32.10296650575114</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:12:af:7c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-72&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;40&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:03:57&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:03:57Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20968182189735,32.10296650575114</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:ec:3c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-77&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:03:57&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:03:57Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20968182189735,32.10296650575114</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:92:af:77&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-72&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;40&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:03:57&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:03:57Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20968182189735,32.10296650575114</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:30:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-77&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:04:00&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:04:00Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20969651518472,32.10291540835992</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:ed:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-71&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:04:03&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:04:03Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20970867310708,32.10286049786469</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:ed:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-71&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:04:03&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:04:03Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20970867310708,32.10286049786469</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:30:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-72&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:04:03&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:04:03Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20970867310708,32.10286049786469</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>KCG-ADSL</name>
+                <description>MAC Address :00:1d:aa:81:d8:3c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-62&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;3&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:04:09&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:04:09Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20974214753134,32.10278211645307</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:96:ee:97&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:04:12&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:04:12Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20975955894632,32.10275085292877</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2c:3c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-77&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;52&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:04:15&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:04:15Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20977438790677,32.10271865750214</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:96:11:a7&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:04:18&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:04:18Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20979541943164,32.10268489619051</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>DIRECT-IRDESKTOP-ETE41T5msTU</name>
+                <description>MAC Address :02:21:5c:af:69:82&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-90&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:04:24&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:04:24Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20987440650553,32.10262449933767</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:ee:98&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-78&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:04:27&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:04:27Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209894056094186,32.10260729460685</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:94:2c:37&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;52&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:04:30&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:04:30Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209892845310286,32.10262260926248</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2c:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-76&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:04:39&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:04:39Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20982946116112,32.10274869091711</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Coolnet-Hotspot</name>
+                <description>MAC Address :00:18:25:12:72:f0&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-92&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;7&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:04:45&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:04:45Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209782211668895,32.102838751582816</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:96:d2:87&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-90&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:05:15&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:05:15Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209712493355596,32.10305305270209</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:96:f4:77&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-91&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:05:34&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:05:34Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20975082065317,32.10324601363817</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:06:b8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-72&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:05:46&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:05:46Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209824043200406,32.10340621094294</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:fd:4c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:05:55&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:05:55Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20990554493647,32.10351072327457</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:fd:4c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:05:55&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:05:55Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20990554493647,32.10351072327457</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:ed:3c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-91&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:05:55&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:05:55Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20990554493647,32.10351072327457</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:95:fd:47&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-88&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:05:58&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:05:58Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20994639016426,32.10353904388322</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:06:b8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-67&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:01&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:01Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209972255434074,32.1035758611245</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:ed:38&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:04&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:04Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.210005054877556,32.10360315832744</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>DIRECT-8A-HP DeskJet 3630 series</name>
+                <description>MAC Address :3c:52:82:ef:a4:8b&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-82&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:07&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:07Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21005058122789,32.10363047533494</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :00:27:22:f3:bb:2b&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:10&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:10Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21010138636458,32.1036535872341</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :00:27:22:f3:bb:2b&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:10&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:10Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21010138636458,32.1036535872341</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:1d:7c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-90&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:10&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:10Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21010138636458,32.1036535872341</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :24:79:2a:2b:07:bc&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:16&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:16Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21017541181782,32.10369861480585</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :24:79:2a:ab:bd:87&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:19&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:19Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21020742379761,32.103724904733575</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :24:79:2a:ab:bd:87&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:19&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:19Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21020742379761,32.103724904733575</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :24:79:2a:2c:5c:1c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:19&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:19Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21020742379761,32.103724904733575</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :24:79:2a:ab:07:b7&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:19&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:19Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21020742379761,32.103724904733575</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>HelpDesk</name>
+                <description>MAC Address :60:e3:27:7b:e0:98&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;4&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:19&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:19Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21020742379761,32.103724904733575</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :24:79:2a:2b:bd:8c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:22&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:22Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21024296825823,32.103754328139765</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:96:1d:77&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-90&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:31&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:31Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21028362142391,32.10381009568773</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:96:1d:77&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-90&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:31&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:31Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21028362142391,32.10381009568773</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:96:e5:a7&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-90&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:31&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:31Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21028362142391,32.10381009568773</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :24:79:2a:2b:07:b8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-77&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:34&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:34Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.210254888699964,32.103804451692376</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :24:79:2a:2b:07:b8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-77&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:34&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:34Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.210254888699964,32.103804451692376</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :24:79:2a:ac:5c:17&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:34&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:34Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.210254888699964,32.103804451692376</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :24:79:2a:2b:bd:88&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-72&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:37&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:37Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21022896658198,32.103796488351406</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :24:79:2a:2c:5b:d8&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-80&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:43&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:43Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21014735283678,32.10376657920338</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:96:28:e7&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:46&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:46Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21009736641098,32.10374932461536</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:96:28:e7&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:46&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:46Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21009736641098,32.10374932461536</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:28:ec&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:46&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:46Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21009736641098,32.10374932461536</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:1c:bc&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:49&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:49Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21003935734618,32.10371197783737</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :8c:0c:90:2e:e8:18&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-90&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:55&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:55Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20997695154486,32.10366280622974</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:fd:48&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-71&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:06:58&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:06:58Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209948179237934,32.103633107895774</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>2.4V1</name>
+                <description>MAC Address :40:a5:ef:7a:17:f2&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-93&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:07:07&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:07:07Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20985735548095,32.103511338353215</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:f1:5c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-75&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;52&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:07:10&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:07:10Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209844645257576,32.10347765964358</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :8c:0c:90:2e:16:88&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-80&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:07:13&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:07:13Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209834157782176,32.10343949277716</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:96:f4:77&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-81&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:07:25&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:07:25Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20980399820012,32.10328866514529</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>DIRECT-3B-HP DeskJet 3630 series</name>
+                <description>MAC Address :3c:52:82:ef:c4:3c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-67&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:08:16&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:08:16Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20969100791368,32.10290399031027</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>DIRECT-3B-HP DeskJet 3630 series</name>
+                <description>MAC Address :3c:52:82:ef:c4:3c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-67&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:08:16&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:08:16Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20969100791368,32.10290399031027</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:95:ec:37&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-78&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:08:16&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:08:16Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.20969100791368,32.10290399031027</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:95:3a:37&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-80&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:08:58&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:08:58Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21000653997084,32.10238084673325</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:95:3a:37&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-80&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:08:58&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:08:58Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21000653997084,32.10238084673325</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <description>MAC Address :1c:b9:c4:95:1e:67&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:08:58&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:08:58Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21000653997084,32.10238084673325</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:1e:6c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;36&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:08:58&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:08:58Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21000653997084,32.10238084673325</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>2.4V1</name>
+                <description>MAC Address :40:a5:ef:7a:17:f2&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-92&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:08:58&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:08:58Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.21000653997084,32.10238084673325</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>2.4V1</name>
+                <description>MAC Address :40:a5:ef:7a:17:f2&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:09:04&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:09:04Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.210036092254505,32.102316130489186</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:15:3d:6c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;44&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:09:21&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:09:21Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209976991172944,32.10246120400514</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>DIRECT-47-HP DeskJet 3630 series</name>
+                <description>MAC Address :30:e1:71:0f:a2:49&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-79&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:09:37&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:09:37Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209867804165086,32.102689713395726</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>DIRECT-47-HP DeskJet 3630 series</name>
+                <description>MAC Address :30:e1:71:0f:a2:49&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-79&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:09:37&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:09:37Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209867804165086,32.102689713395726</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:14:2c:3c&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-67&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;52&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:09:37&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:09:37Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209867804165086,32.102689713395726</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>DIRECT-ce-HP M426 LaserJet</name>
+                <description>MAC Address :2a:56:5a:9e:2e:ce&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-77&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:09:40&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:09:40Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209856687440386,32.10273836386316</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:16:06:bc&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-88&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;48&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:09:46&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:09:46Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209826891474435,32.102834572431405</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Ariel_University</name>
+                <description>MAC Address :1c:b9:c4:12:af:78&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-68&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:10:00&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:10:00Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.2096695193848,32.10295813415597</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Partner</name>
+                <description>MAC Address :42501_10072_470802&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-63&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-03 09:10:06&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-03T09:10:06Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.209664063985805,32.10297785432011</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
