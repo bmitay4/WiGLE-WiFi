@@ -3,6 +3,10 @@ package Row;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Provides tools for sorting an array list
+ */
+
 public class Sort_Rows_Tools {
 	
 	ArrayList<String> tempRow;

@@ -21,6 +21,12 @@ public class Run {
 	WriteFile Write_File_Object = new WriteFile();
 	FilterChoose Filter_Choose_Object = new FilterChoose();
 	
+	/**
+	 * The engine of the project, this program manages the entire project 
+	 * @param userLocation
+	 * @param userDestination
+	 */
+	
 	public void Program(String userLocation, String userDestination){
 		this.userLocation = userLocation;
 		this.userDestination = userDestination;
