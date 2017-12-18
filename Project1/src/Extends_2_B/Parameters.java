@@ -1,10 +1,17 @@
 package Extends_2_B;
 
 public class Parameters {
-
-	public static void main(String[] args) {
-		System.out.println();
+	private double power;
+	private double norm;
+	private double sigDiff;
+	private double minDiff;
+	private double noSignal;
+	private double diffNoSignal;
+	
+	public Parameters(double power, double norm, double sigDiff, double){
+		
 	}
-	
-	
 }
+	
+	
+
