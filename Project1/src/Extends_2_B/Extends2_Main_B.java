@@ -4,7 +4,7 @@ public class Extends2_Main_B {
 
 	public static void main(String[] args) {
 
-		String userLocation = "";
+		String userLocation = "Test";
 		
 		Find_User_Location_1 Go1 = new Find_User_Location_1();
 		Find_User_Location_2 Go2 = new Find_User_Location_2();
