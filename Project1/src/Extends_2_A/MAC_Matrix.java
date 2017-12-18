@@ -21,7 +21,7 @@ public class MAC_Matrix {
 		AP_Matrix = new ArrayList<>();
 		temp_Row = new ArrayList<>();
 
-		for (int i = 1; i < Matrix.size() && AP_Matrix.size() < 3; i++) {
+		for (int i = 1; i < Matrix.size(); i++) {
 			All_WiFi_Object = new All_WiFi();
 			WiFi_Row = All_WiFi_Object.All_WiFi_Row(Matrix.get(i));
 			if(WiFi_Row.contains(MAC)){
