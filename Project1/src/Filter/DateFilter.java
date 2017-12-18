@@ -9,12 +9,14 @@ import java.util.List;
 import java.util.Scanner;
 
 import ExportKML.WriteKML;
+import File.WriteFile;
 import Row.Single_Row_After_Merge;
 
 public class DateFilter {
 	
 	Single_Row_After_Merge Single_Row_After_Merge_Object;
 	WriteKML WriteKML_Object;
+	WriteFile Write_File_Object = new WriteFile();
 	
 	public void Date(String userDestination, ArrayList<List<String>> Matrix){
 		Scanner flag1 = new Scanner(System.in);
@@ -34,6 +36,7 @@ public class DateFilter {
 		flag2.close();
 		
 		WriteKML_Object  = new WriteKML();
+		Write_File_Object.writeFiles(userDestination+"DateSort.csv", Matrix);
 		WriteKML_Object.exportKml(userDestination, Matrix);
 	}
 
