@@ -27,7 +27,7 @@ public class MAC_Matrix {
 	}
 	
 	private void addDetails(List<String> Row, List<String> temp_Row, String MAC1, String MAC2, String MAC3){
-		String flag = "120";
+		String flag = "-120";
 		All_WiFi_Obj.All_WiFi_Row(Row);
 		if(algo_B_Tools_Obj.isContainMAC(Row, MAC1)) temp_Row.add(All_WiFi_Obj.getSignal(MAC1));
 		else temp_Row.add(flag);
