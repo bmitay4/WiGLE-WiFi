@@ -1,6 +1,6 @@
 package Extends_2_A;
 
-public class Extends2_Main {
+public class Extends2_Main_A {
 	/**
 	 * This is a main class for Part 2 
 	 * @author Hani Bakbani, Avital Israeli, Itay Ben Moshe
