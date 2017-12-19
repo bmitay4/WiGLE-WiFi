@@ -32,7 +32,7 @@ public class All_Rows {
 				Rows_Matrix.remove(i);
 				i--;
 			}
-			else if(Rows_Matrix.get(i).contains("01/01/1970  02:00:00") || Rows_Matrix.get(i).contains(null)){ //If the row contain bad and unknown details, remove it
+			else if(Rows_Matrix.get(i).contains("01/01/1970  02:00:00") || Rows_Matrix.get(i).contains(null) || Rows_Matrix.get(i).contains("GSM")){ //If the row contain bad and unknown details, remove it
 				Rows_Matrix.remove(i);
 				i--;
 			}
