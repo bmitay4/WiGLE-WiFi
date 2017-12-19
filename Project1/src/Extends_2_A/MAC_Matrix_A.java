@@ -8,7 +8,7 @@ import WiFi.All_WiFi;
 import WiFi.WiFi_After_Merge;
 import WiFi.WiFi_Algorithm_A;
 
-public class MAC_Matrix {
+public class MAC_Matrix_A {
 
 	List<String> WiFi_Row, temp_Row;
 	All_WiFi All_WiFi_Object;
