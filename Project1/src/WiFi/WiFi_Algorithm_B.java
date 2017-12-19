@@ -16,6 +16,8 @@ public class WiFi_Algorithm_B {
 		this.Lat = getLat();
 		this.Lon = getLon();
 		this.Alt = getAlt();
+		this.Alt = getAlt();
+		this.Alt = getAlt();
 	}
 	
 	public String getLat(){
