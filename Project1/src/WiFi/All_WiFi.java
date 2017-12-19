@@ -43,18 +43,22 @@ public class All_WiFi {
 	}
 	public String getMAC(String MAC){
 		int index = this.WiFi_Row.indexOf(MAC);
+		if(index == -1) return null;
 		return this.WiFi_Row.get(index);
 	}
 	public String getSSID(String MAC){
 		int index = this.WiFi_Row.indexOf(MAC);
+		if(index == -1) return null;
 		return this.WiFi_Row.get(index - 1);
 	}
 	public String getChannel(String MAC){
 		int index = this.WiFi_Row.indexOf(MAC);
+		if(index == -1) return null;
 		return this.WiFi_Row.get(index + 1);
 	}
 	public String getSignal(String MAC){
 		int index = this.WiFi_Row.indexOf(MAC);
+		if(index == -1) return null;
 		return this.WiFi_Row.get(index + 2);
 	}
 }
