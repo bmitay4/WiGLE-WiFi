@@ -50,11 +50,11 @@ public class All_WiFi {
 		return this.WiFi_Row.get(index - 1);
 	}
 	public String getChannel(String MAC){
-		int index = this.WiFi_Row.indexOf	(MAC);
+		int index = this.WiFi_Row.indexOf(MAC);
 		return this.WiFi_Row.get(index + 1);
 	}
 	public String getSignal(String MAC){
-		int index = this.WiFi_Row.indexOf	(MAC);
+		int index = this.WiFi_Row.indexOf(MAC);
 		return this.WiFi_Row.get(index + 2);
 	}
 }
