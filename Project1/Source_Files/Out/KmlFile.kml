@@ -7,63 +7,113 @@
             <name>Wireless access point</name>
             <open>1</open>
             <Placemark>
-                <name>afikim-wifi</name>
-                <description>MAC Address :34:0b:01:19:21:42&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-79&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;7&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-10-29 18:22:24&lt;/b&gt;</description>
+                <name>Partner-4G-s</name>
+                <description>MAC Address :44:6e:e5:67:98:13&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;9&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-11-09 02:49:19&lt;/b&gt;</description>
                 <TimeStamp>
-                    <when>2017-10-29T18:22:24Z</when>
+                    <when>2017-11-09T02:49:19Z</when>
                 </TimeStamp>
                 <Point>
-                    <coordinates>35.20512521266937,32.10176110267639</coordinates>
+                    <coordinates>35.01650055,32.10822453</coordinates>
                 </Point>
             </Placemark>
             <Placemark>
-                <name>Banot</name>
-                <description>MAC Address :a0:4f:d4:3b:fb:a1&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-40&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-10-29 18:23:50&lt;/b&gt;</description>
+                <name>Partner-4G-s</name>
+                <description>MAC Address :44:6e:e5:67:98:13&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;9&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-11-09 02:49:19&lt;/b&gt;</description>
                 <TimeStamp>
-                    <when>2017-10-29T18:23:50Z</when>
+                    <when>2017-11-09T02:49:19Z</when>
                 </TimeStamp>
                 <Point>
-                    <coordinates>35.20511723,32.1018979</coordinates>
+                    <coordinates>35.01650055,32.10822453</coordinates>
                 </Point>
             </Placemark>
             <Placemark>
-                <name>YICarCam_f78548</name>
-                <description>MAC Address :58:70:c6:f7:85:48&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-79&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;7&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-10-29 18:24:00&lt;/b&gt;</description>
+                <name>HOT mobile</name>
+                <description>MAC Address :42507_10222_1504557&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-79&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-11-09 02:49:19&lt;/b&gt;</description>
                 <TimeStamp>
-                    <when>2017-10-29T18:24:00Z</when>
+                    <when>2017-11-09T02:49:19Z</when>
                 </TimeStamp>
                 <Point>
-                    <coordinates>35.20511832,32.10189537</coordinates>
+                    <coordinates>35.01650055,32.10822453</coordinates>
                 </Point>
             </Placemark>
             <Placemark>
-                <name>Achiatheking_2EX</name>
-                <description>MAC Address :74:da:38:14:47:f3&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-58&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;6&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-10-29 18:24:16&lt;/b&gt;</description>
+                <name>Partner-4G-s</name>
+                <description>MAC Address :44:6e:e5:67:98:13&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;9&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-11-09 02:49:19&lt;/b&gt;</description>
                 <TimeStamp>
-                    <when>2017-10-29T18:24:16Z</when>
+                    <when>2017-11-09T02:49:19Z</when>
                 </TimeStamp>
                 <Point>
-                    <coordinates>35.20511886,32.10189288</coordinates>
+                    <coordinates>35.01650055,32.10822453</coordinates>
                 </Point>
             </Placemark>
             <Placemark>
-                <name>BEZEQINT-DFA1</name>
-                <description>MAC Address :14:ae:db:a0:df:a5&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-75&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;11&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-10-29 18:24:23&lt;/b&gt;</description>
+                <name>Partner-4G-s</name>
+                <description>MAC Address :44:6e:e5:67:98:13&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-87&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;9&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-11-09 02:49:19&lt;/b&gt;</description>
                 <TimeStamp>
-                    <when>2017-10-29T18:24:23Z</when>
+                    <when>2017-11-09T02:49:19Z</when>
                 </TimeStamp>
                 <Point>
-                    <coordinates>35.20512888,32.10183071</coordinates>
+                    <coordinates>35.01650055,32.10822453</coordinates>
                 </Point>
             </Placemark>
             <Placemark>
-                <name></name>
-                <description>MAC Address :30:b5:c2:b8:40:36&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-88&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;13&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-10-29 18:24:29&lt;/b&gt;</description>
+                <name>HOT mobile</name>
+                <description>MAC Address :42507_10222_1504557&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-79&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;0&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-11-09 02:49:19&lt;/b&gt;</description>
                 <TimeStamp>
-                    <when>2017-10-29T18:24:29Z</when>
+                    <when>2017-11-09T02:49:19Z</when>
                 </TimeStamp>
                 <Point>
-                    <coordinates>35.20512875,32.10183077</coordinates>
+                    <coordinates>35.01650055,32.10822453</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>yomtob</name>
+                <description>MAC Address :a0:ab:1b:5b:7d:52&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;2&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-17 21:30:54&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-17T21:30:54Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.01649084,32.10820289</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>yomtob</name>
+                <description>MAC Address :a0:ab:1b:5b:7d:52&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-84&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;2&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-17 21:30:54&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-17T21:30:54Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.01649084,32.10820289</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>BezeqFree</name>
+                <description>MAC Address :62:be:f5:3f:dc:9b&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-83&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-17 21:30:54&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-17T21:30:54Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.01649084,32.10820289</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>akavya17</name>
+                <description>MAC Address :10:be:f5:3f:dc:9a&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-85&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;1&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-17 21:30:54&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-17T21:30:54Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.01649084,32.10820289</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Partner-4G-C84A</name>
+                <description>MAC Address :a8:c8:3a:35:c8:4a&lt;/b&gt;&lt;br/&gt;Signal: &lt;b&gt;-88&lt;/b&gt;&lt;br/&gt;Frequency: &lt;b&gt;9&lt;/b&gt;&lt;br/&gt;Time: &lt;b&gt;2017-12-17 21:30:54&lt;/b&gt;</description>
+                <TimeStamp>
+                    <when>2017-12-17T21:30:54Z</when>
+                </TimeStamp>
+                <Point>
+                    <coordinates>35.01649084,32.10820289</coordinates>
                 </Point>
             </Placemark>
         </Folder>
