@@ -19,11 +19,12 @@ public class MAC_Matrix_A {
 		AP_Matrix = new ArrayList<>();
 		temp_Row = new ArrayList<>();
 
-		for (int i = 1; i < Matrix.size(); i++) {
+		for (int i = 0; i < Matrix.size(); i++) {
 			All_WiFi_Object = new All_WiFi();
 			WiFi_Row = All_WiFi_Object.All_WiFi_Row(Matrix.get(i));
 			if(WiFi_Row.contains(MAC)){
 				temp_Row = All_WiFi_Object.WiFi_Row_By_MAC(MAC);
+				temp_Row.add(Matrix.get(i).get((0)));
 				AP_Matrix.add(temp_Row);
 			}
 		}

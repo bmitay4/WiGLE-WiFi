@@ -4,7 +4,7 @@ import java.util.List;
 
 public class WiFi_Algorithm_A {
 
-	int Signal;
+	double Signal;
 	double Lat;
 	double Lon;
 	double Alt;
@@ -27,7 +27,7 @@ public class WiFi_Algorithm_A {
 	public double getAlt(){
 		return Double.parseDouble(this.WiFi_Row.get(4));
 	}
-	public int getSignal(){
-		return Integer.parseInt(this.WiFi_Row.get(6));
+	public double getSignal(){
+		return Double.parseDouble(this.WiFi_Row.get(6));
 	}
 }

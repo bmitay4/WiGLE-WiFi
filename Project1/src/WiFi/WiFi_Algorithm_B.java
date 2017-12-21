@@ -6,11 +6,11 @@ import java.util.List;
 public class WiFi_Algorithm_B {
 	
 	int NumOfWiFi;
-
-	ArrayList<String> Ans_Row = new ArrayList<>();
 	List<String> WiFi_Row;
-	
+	ArrayList<String> Ans_Row = new ArrayList<>();
+
 	public ArrayList<String> WiFis_B_Row(List<String> WiFi_Row){ //For a row with multiplication MAC
+
 		this.WiFi_Row = WiFi_Row;
 		this.NumOfWiFi = getNumOfWiFi();
 
