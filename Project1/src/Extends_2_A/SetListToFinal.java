@@ -12,10 +12,8 @@ public class SetListToFinal {
 		Temp.add(String.valueOf(Algo_Obj.Lat));
 		Temp.add(String.valueOf(Algo_Obj.Lon));
 		Temp.add(String.valueOf(Algo_Obj.Alt));
-		
 		Temp.add((AP_Matrix.get(0).get(0)));
 		Temp.add((AP_Matrix.get(0).get(1)));
-
 		Temp.add(Channel);
 		Temp.add(Signal);
 

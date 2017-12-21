@@ -2,14 +2,14 @@ package Extends_2_A;
 
 import java.util.ArrayList;
 
-public class Sum_AP {
+public class AP_Sum {
 
 	double Lat, tempLat;
 	double Lon, tempLon;
 	double Alt, tempAlt;
 	double weight;
 	
-	public Sum_AP(ArrayList<AP_Properties> APList){
+	public AP_Sum(ArrayList<AP_Properties> APList){
 		for (int i = 0; i < APList.size(); i++) {
 			tempLat = tempLat + APList.get(i).wLat;
 			tempLon = tempLon + APList.get(i).wLon;
