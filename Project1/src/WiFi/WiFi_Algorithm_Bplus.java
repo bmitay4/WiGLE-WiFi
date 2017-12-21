@@ -3,7 +3,11 @@ package WiFi;
 import java.util.List;
 
 public class WiFi_Algorithm_Bplus {
-
+	
+	/**
+	 * Representing an object, that contain Alt, Lan and Lon, which is helpful at Algorithm 2
+	 */
+	
 	double Lat;
 	double Lon;
 	double Alt;

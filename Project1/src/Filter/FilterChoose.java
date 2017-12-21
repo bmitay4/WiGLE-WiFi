@@ -14,6 +14,11 @@ public class FilterChoose {
 	LocationFilter LocationFilter_Object = new LocationFilter();
 	WriteKML WriteKML_Object = new WriteKML();
 
+	/**
+	 * The user choose one of the following filters options
+	 * @param userDestination
+	 * @param Matrix
+	 */
 	public void Filter(String userDestination, ArrayList<List<String>> Matrix) {
 		System.out.println("Choose a filter:\nID, Date, Location\nFor none filter, press 0");
 

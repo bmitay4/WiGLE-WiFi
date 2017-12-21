@@ -10,11 +10,16 @@ import Row.Single_Row_After_Merge;
 
 public class IDFilter {
 
+	/**
+	 * Filter By ID number
+	 * @param userDestination
+	 * @param Matrix
+	 */
+	
 	String userID;
 	Single_Row_After_Merge Single_Row_After_Merge_Object;
 	WriteKML WriteKML_Object;
 	WriteFile Write_File_Object = new WriteFile();
-
 
 	public void ID(String userDestination, ArrayList<List<String>> Matrix){
 		System.out.println("Type the requested phone ID");
