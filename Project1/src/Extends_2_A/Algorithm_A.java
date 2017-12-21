@@ -15,7 +15,6 @@ public class Algorithm_A {
 		this.Lat = AP_Choose.Sum_AP_Obj.Lat;
 		this.Lon = AP_Choose.Sum_AP_Obj.Lon;
 		this.Alt = AP_Choose.Sum_AP_Obj.Alt;
-		
 	}
 
 
