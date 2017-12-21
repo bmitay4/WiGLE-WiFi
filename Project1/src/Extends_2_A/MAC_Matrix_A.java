@@ -6,7 +6,6 @@ import java.util.List;
 import Row.Single_Row_After_Merge;
 import WiFi.All_WiFi;
 import WiFi.WiFi_After_Merge;
-import WiFi.WiFi_Algorithm_A;
 
 public class MAC_Matrix_A {
 
@@ -15,7 +14,6 @@ public class MAC_Matrix_A {
 	Single_Row_After_Merge Row_After_Merge_Obj;
 	ArrayList<List<String>> AP_Matrix;
 	WiFi_After_Merge WiFi_Obj = new WiFi_After_Merge();
-	WiFi_Algorithm_A WiFi_Algo_A_Obj;
 
 	public ArrayList<List<String>> isContainsMAC(ArrayList<List<String>> Matrix, String MAC){
 		AP_Matrix = new ArrayList<>();

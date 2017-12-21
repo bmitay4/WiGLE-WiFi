@@ -7,7 +7,7 @@ import WiFi.All_WiFi;
 
 public class MAC_Matrix_B {
 
-	ArrayList<List<String>> AP_Matix, Matrix = new ArrayList<>();
+	ArrayList<List<String>> AP_Matrix, Matrix = new ArrayList<>();
 	ArrayList<String> AP_Row;
 
 	All_WiFi All_WiFi_Obj = new All_WiFi();
@@ -17,8 +17,9 @@ public class MAC_Matrix_B {
 		this.Matrix = Matrix;
 		this.AP_Row = AP_Row;
 
-		this.AP_Matix = SetMatrix();
-		return this.AP_Matix;
+		this.AP_Matrix = SetMatrix();
+		addMacHead();
+		return this.AP_Matrix;
 	}
 
 	private ArrayList<List<String>> SetMatrix(){
@@ -27,14 +28,14 @@ public class MAC_Matrix_B {
 			boolean ans = false;
 			for (int i = 0; i < AP_Row.size() && !ans; i = i + 2) {
 				if(MAC_Tools_Obj.isContainMACs(Matrix.get(j), AP_Row)){
-					Ans_Mat.add(setRow(Matrix.get(j)));
+					Ans_Mat.add(setRow(Matrix.get(j), j));
 					ans = true;
 				}
 			}
 		}
 		return Ans_Mat;
 	}
-	private ArrayList<String> setRow(List<String> Row){
+	private ArrayList<String> setRow(List<String> Row, int j){
 		ArrayList<String> Ans_Row = new ArrayList<>();
 		for (int i = 0; i < AP_Row.size(); i = i + 2) {
 			String Mac = AP_Row.get(i);
@@ -50,6 +51,14 @@ public class MAC_Matrix_B {
 			}
 
 		}
+		Ans_Row.add(Integer.toString(j));
 		return Ans_Row;
+	}
+	private void addMacHead(){
+		ArrayList<String> Temp_Signal = new ArrayList<>();
+		for (int i = 1; i < AP_Row.size(); i = i + 2) {
+			Temp_Signal.add(AP_Row.get(i));
+		}
+		AP_Matrix.add(0, Temp_Signal);
 	}
 }

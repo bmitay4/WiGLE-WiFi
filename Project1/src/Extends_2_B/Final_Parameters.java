@@ -2,21 +2,24 @@ package Extends_2_B;
 
 public class Final_Parameters {
 	
-	int power = 2;
-	int normal = 10000;
-	double signal_diff = 0.4;
-	int min_diff = 3;
-	int no_signal = -120;
-	int no_signal_diff = 100;
+	private int power = 2;
+	private int normal = 10000;
+	private double signal_diff = 0.4;
+	private int min_diff = 3;
+	private String no_signal = "-120";
+	private int no_signal_diff = 100;
 	
-	public int diff(int MacSignal, int Signal){
+	public int diff(String MacSignal, String Signal){
 		int ans;
-		if(Signal == no_signal) ans = no_signal_diff;
-		else ans = Math.max(Math.abs(MacSignal - Signal), min_diff);
+		if(Signal.equals(no_signal)) ans = no_signal_diff;
+		else ans = Math.max(Math.abs(Integer.parseInt(MacSignal) - Integer.parseInt(Signal)), min_diff);
 		return ans;
 	}
-	public double weight(int MacSignal, int diff){
-		return (normal/(Math.pow(diff, signal_diff)*Math.pow(MacSignal, power)));
+	public double weight(String MacSignal, String diff){
+		int diffInt = Math.abs(Integer.parseInt(diff));
+		int macInt = Math.abs(Integer.parseInt(MacSignal));
+
+		return (normal/(Math.pow(diffInt, signal_diff)*Math.pow(macInt, power)));
 	}
 
 }
