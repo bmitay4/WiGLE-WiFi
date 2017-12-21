@@ -19,7 +19,14 @@ public class OpenFolder {
 	public OpenFolder(){
 		
 	}
-	//Generate a matrix with all CSV files
+	
+	/**
+	 * Generate a matrix with all CSV files
+	 * @param location
+	 * @param destination
+	 * @return
+	 */
+	
 	public ArrayList<List<String>> openFolder(String location, String destination) {
 		this.new_Matrix = new ArrayList<>();
 		this.temp_Matrix = new ArrayList<>();
@@ -39,7 +46,11 @@ public class OpenFolder {
 		return new_Matrix;
 	}
 	
-	//Update new_Matrix all time 
+	/**
+	 * Keep the new_Matrix updated all time 
+	 * @param new_Matrix
+	 * @param temp_Matrix
+	 */
 	public void updateMatrix(ArrayList<List<String>> new_Matrix, ArrayList<List<String>> temp_Matrix){
 		for (int i = 0; i < temp_Matrix.size(); i++) {
 			new_Matrix.add(temp_Matrix.get(i));

@@ -10,6 +10,12 @@ import Row.Single_Row_After_Merge;
 
 public class LocationFilter {
 	
+	/**
+	 * Filter By Location, set a point(Lat,Lon) and the radius by meters.
+	 * @param userDestination
+	 * @param Matrix
+	 */
+	
 	Single_Row_After_Merge Single_Row_After_Merge_Object;
 	WriteKML WriteKML_Object;
 	WriteFile Write_File_Object = new WriteFile();

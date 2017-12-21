@@ -13,28 +13,34 @@ import File.WriteFile;
 import Row.Single_Row_After_Merge;
 
 public class DateFilter {
-	
+
+	/**
+	 * Filter By Date
+	 * @param userDestination
+	 * @param Matrix
+	 */
+
 	Single_Row_After_Merge Single_Row_After_Merge_Object;
 	WriteKML WriteKML_Object;
 	WriteFile Write_File_Object = new WriteFile();
-	
+
 	public void Date(String userDestination, ArrayList<List<String>> Matrix){
 		Scanner flag1 = new Scanner(System.in);
 		Scanner flag2 = new Scanner(System.in);
-		
+
 		System.out.println("Type the requested Date range");
 		System.out.println("An examples of proper date and time: 2017-02-18 18:21:22");
-		
+
 		System.out.println("from ");
 		String userStartDate = flag1.nextLine();
 		System.out.println("to ");
 		String userEndDate = flag2.nextLine();
-		
+
 		dateFilter(Matrix, userStartDate, userEndDate);
-		
+
 		flag1.close();
 		flag2.close();
-		
+
 		WriteKML_Object  = new WriteKML();
 		Write_File_Object.writeFiles(userDestination+"DateSort.csv", Matrix);
 		WriteKML_Object.exportKml(userDestination, Matrix);
@@ -70,5 +76,5 @@ public class DateFilter {
 		}
 		return null;
 	}
-	
+
 }

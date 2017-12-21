@@ -1,6 +1,6 @@
 package Extends_2_A;
 
-public class Extends2_Main_A {
+public class AlgoA_Main {
 	/**
 	 * This is a main class for Part 2 
 	 * @author Hani Bakbani, Avital Israeli, Itay Ben Moshe
@@ -8,10 +8,10 @@ public class Extends2_Main_A {
 	
 	public static void main(String[] args) {
 		
-		String userLocation = "C:/Users/איתי בן משה/ArielGit/Project1/Source_Files/Out/mergeCSV.csv";
-		String MAC = "00:0c:42:51:cf:e8";
+		String userLocation = "C:/Users/איתי בן משה/git/ArielOOP/Project1/docs/Algo 1/_comb_all_BM1_.csv";
+		int numOfSamples = 3;
 		
 		Find_AP_Location Go = new Find_AP_Location();
-		Go.Program(userLocation, MAC);
+		Go.Program(userLocation , numOfSamples);
 	}
 }

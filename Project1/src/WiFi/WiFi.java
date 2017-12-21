@@ -6,6 +6,9 @@ import java.util.List;
 
 import Row.Single_Row;
 
+/**
+ * Representing an object, that contain the 4 parameters for AP
+ */
 public class WiFi {
 	String SSID;
 	String MAC;
@@ -13,13 +16,13 @@ public class WiFi {
 	String Signal;
 	List<String> Single_Row;
 	Single_Row Single_Row_Object;
-	
-	
+
+
 	public ArrayList<String> WiFi_Row(List<String> Single_Row){
 		this.Single_Row = Single_Row;
-		
+
 		Single_Row_Object = new Single_Row(Single_Row);
-		
+
 		ArrayList<String> Ans_Row = new ArrayList<>();
 		Ans_Row.add(getSSID());
 		Ans_Row.add(getMAC());
@@ -28,7 +31,7 @@ public class WiFi {
 
 		return Ans_Row;
 	}
-	
+
 
 	public String getSSID() {
 		return Single_Row.get(6);

@@ -2,17 +2,19 @@ package WiFi;
 
 import java.util.List;
 
-public class WiFi_Algorithm_A {
-
-	double Signal;
+public class WiFi_Algorithm_Bplus {
+	
+	/**
+	 * Representing an object, that contain Alt, Lan and Lon, which is helpful at Algorithm 2
+	 */
+	
 	double Lat;
 	double Lon;
 	double Alt;
 	List<String> WiFi_Row;
 
-	public WiFi_Algorithm_A(List<String> WiFi_Row){
+	public WiFi_Algorithm_Bplus(List<String> WiFi_Row){
 		this.WiFi_Row = WiFi_Row;
-		this.Signal = getSignal();
 		this.Lat = getLat();
 		this.Lon = getLon();
 		this.Alt = getAlt();
@@ -27,7 +29,5 @@ public class WiFi_Algorithm_A {
 	public double getAlt(){
 		return Double.parseDouble(this.WiFi_Row.get(4));
 	}
-	public double getSignal(){
-		return Double.parseDouble(this.WiFi_Row.get(6));
-	}
+	
 }

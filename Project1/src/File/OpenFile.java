@@ -8,11 +8,16 @@ import java.util.List;
 
 public class OpenFile{
 
+	/**
+	 * Generates a matrix of a single CSV file
+	 * @param location
+	 * @return
+	 */
+
 	String csvFile;
 	ArrayList<List<String>> File_Matrix;
 	ArrayList<String> Single_Row;
-	
-	//Generates a matrix of a single CSV file
+
 	public ArrayList<List<String>> openFiles(String location){
 		BufferedReader br = null;
 		this.File_Matrix = new ArrayList<>();
@@ -34,7 +39,7 @@ public class OpenFile{
 		}
 		return File_Matrix;
 	}
-	
+
 	//Creates and return a single row
 	public ArrayList<String> CSVtoArrayList(String csvFile) {
 		this.Single_Row = new ArrayList<String>();
