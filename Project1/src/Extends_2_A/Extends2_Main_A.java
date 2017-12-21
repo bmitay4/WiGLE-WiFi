@@ -8,8 +8,8 @@ public class Extends2_Main_A {
 	
 	public static void main(String[] args) {
 		
-		String userLocation = "C:/Users/איתי בן משה/ArielGit/Project1/Source_Files/Out/mergeCSV.csv";
-		String MAC = "00:0c:42:51:cf:e8";
+		String userLocation = "C:/OOPGit/_comb_all_.csv";
+		String MAC = "1c:b9:c4:15:ed:b8";
 		
 		Find_AP_Location Go = new Find_AP_Location();
 		Go.Program(userLocation, MAC);
