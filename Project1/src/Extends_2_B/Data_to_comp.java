@@ -40,7 +40,7 @@ public class Data_to_comp {
 		Data_to_comp_row.add(16,diff(min_diff, no_sig,diff_no_sig, Data_to_comp_row.get(14), Data_to_comp_row.get(15)));//diff3
 		Data_to_comp_row.add(17,weight(power,norm, sig_diff,Data_to_comp_row.get(16),Data_to_comp_row.get(14))); //weight3
 		
-		Data_to_comp_row.add(18, DiffTotal(Data_to_comp_row.get(6), Data_to_comp_row.get(11),Data_to_comp_row.get(16)));
+		Data_to_comp_row.add(18, pi(Data_to_comp_row.get(7), Data_to_comp_row.get(12),Data_to_comp_row.get(17)));
 		return Data_to_comp_row;
 	}
 
@@ -68,10 +68,10 @@ public class Data_to_comp {
 		return ans;
 	}
 	
-	private String DiffTotal(String d1, String d2, String d3){
+	private String pi(String w1, String w2, String w3){
 		String ans="";
 		double temp;
-		temp=Double.parseDouble(d1)+Double.parseDouble(d2)+Double.parseDouble(d3);
+		temp=Double.parseDouble(w1)*Double.parseDouble(w2)*Double.parseDouble(w3);
 		ans=""+temp;
 		return ans;
 	}
@@ -85,6 +85,9 @@ public class Data_to_comp {
 	}
 	public String getAlt(){
 		return Data_to_comp_row.get(2);
+	}
+	public double getPi(){
+		return Double.parseDouble(Data_to_comp_row.get(18));
 	}
 	
 }

@@ -9,33 +9,33 @@ public class Data_we_need {
 	
 	public List<String> DataWeNeed(String input_mac1, String input_mac2, String input_mac3, String input_sig1,String input_sig2,String input_sig3, List<String> row){
 		
-		data.add(0, row.get(2));
-		data.add(1, row.get(3));
-		data.add(2, row.get(4));
-		for(int i=7; i< 47; i=i+4){
+		data.add(row.get(2));
+		data.add(row.get(3));
+		data.add(row.get(4));
+		for(int i=7; i< row.size(); i=i+4){
 			if (input_mac1.equals(row.get(i))) {
-				data.add(3, row.get(i));
-				data.add(5, row.get(i+1));
+				data.add(row.get(i));
+				data.add(row.get(i+1));
 			}
 			else {
-				data.add(3, null);
-				data.add(5, "-120");
+				data.add(null);
+				data.add("-120");
 			}
 			if (input_mac2.equals(row.get(i))) {
-				data.add(6, row.get(i));
-				data.add(8, row.get(i+1));
+				data.add(row.get(i));
+				data.add(row.get(i+1));
 			}
 			else {
-				data.add(6, null);
-				data.add(8, "-120");
+				data.add(null);
+				data.add("-120");
 			}
 			if (input_mac3.equals(row.get(i))) {
-				data.add(9, row.get(i));
-				data.add(11, row.get(i+1));
+				data.add(row.get(i));
+				data.add(row.get(i+1));
 			}
 			else {
-				data.add(9, null);
-				data.add(11, "-120");
+				data.add(null);
+				data.add("-120");
 			}
 		}
 		data.add(4, input_sig1);
