@@ -18,27 +18,28 @@ public class Data_to_comp {
 		double norm= 1000;
 		double sig_diff=0.4;
 		Data_to_comp_row=new ArrayList<String>();
-		Data_to_comp_row.add(0, data_we_need.get(0));
-		Data_to_comp_row.add(1, data_we_need.get(1));
-		Data_to_comp_row.add(2, data_we_need.get(2));
 		
-		Data_to_comp_row.add(3, data_we_need.get(3));//mac1
-		Data_to_comp_row.add(4, data_we_need.get(4));//input sig1
-		Data_to_comp_row.add(5, data_we_need.get(5));//sig1
-		Data_to_comp_row.add(6,diff(min_diff, no_sig,diff_no_sig, Data_to_comp_row.get(4), Data_to_comp_row.get(5)));//diff1
-		Data_to_comp_row.add(7,weight(power,norm, sig_diff,Data_to_comp_row.get(6),Data_to_comp_row.get(4))); //weight1
+		Data_to_comp_row.add(data_we_need.get(0));//lat
+		Data_to_comp_row.add(data_we_need.get(1));//lon
+		Data_to_comp_row.add(data_we_need.get(2));//alt
 		
-		Data_to_comp_row.add(8, data_we_need.get(6));//mac2
-		Data_to_comp_row.add(9, data_we_need.get(7));//input sig2
-		Data_to_comp_row.add(10, data_we_need.get(8));//sig2
-		Data_to_comp_row.add(11,diff(min_diff, no_sig,diff_no_sig, Data_to_comp_row.get(9), Data_to_comp_row.get(10)));//diff2
-		Data_to_comp_row.add(12,weight(power,norm, sig_diff,Data_to_comp_row.get(11),Data_to_comp_row.get(9)) ); //weight2
+		Data_to_comp_row.add(data_we_need.get(3));//mac1
+		Data_to_comp_row.add(data_we_need.get(4));//input sig1
+		Data_to_comp_row.add(data_we_need.get(5));//sig1
+		Data_to_comp_row.add(diff(min_diff, no_sig,diff_no_sig, Data_to_comp_row.get(4), Data_to_comp_row.get(5)));//diff1
+		Data_to_comp_row.add(weight(power,norm, sig_diff,Data_to_comp_row.get(6),Data_to_comp_row.get(4))); //weight1
 		
-		Data_to_comp_row.add(13, data_we_need.get(9));//mac3
-		Data_to_comp_row.add(14, data_we_need.get(10));//input sig3
-		Data_to_comp_row.add(15, data_we_need.get(11));//sig3
-		Data_to_comp_row.add(16,diff(min_diff, no_sig,diff_no_sig, Data_to_comp_row.get(14), Data_to_comp_row.get(15)));//diff3
-		Data_to_comp_row.add(17,weight(power,norm, sig_diff,Data_to_comp_row.get(16),Data_to_comp_row.get(14))); //weight3
+		Data_to_comp_row.add(data_we_need.get(6));//mac2
+		Data_to_comp_row.add(data_we_need.get(7));//input sig2
+		Data_to_comp_row.add(data_we_need.get(8));//sig2
+		Data_to_comp_row.add(diff(min_diff, no_sig,diff_no_sig, Data_to_comp_row.get(9), Data_to_comp_row.get(10)));//diff2
+		Data_to_comp_row.add(weight(power,norm, sig_diff,Data_to_comp_row.get(11),Data_to_comp_row.get(9)) ); //weight2
+		
+		Data_to_comp_row.add(data_we_need.get(9));//mac3
+		Data_to_comp_row.add(data_we_need.get(10));//input sig3
+		Data_to_comp_row.add(data_we_need.get(11));//sig3
+		Data_to_comp_row.add(diff(min_diff, no_sig,diff_no_sig, Data_to_comp_row.get(14), Data_to_comp_row.get(15)));//diff3
+		Data_to_comp_row.add(weight(power,norm, sig_diff,Data_to_comp_row.get(16),Data_to_comp_row.get(14))); //weight3
 		
 		Data_to_comp_row.add(18, pi(Data_to_comp_row.get(7), Data_to_comp_row.get(12),Data_to_comp_row.get(17)));
 		return Data_to_comp_row;

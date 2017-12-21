@@ -17,4 +17,17 @@ public class Tools {
 		}
 		return data_with_mac;
 	}
+	public ArrayList<String> hani(String input_mac1, String input_mac2, String input_mac3, String input_sig1,String input_sig2,String input_sig3, List<String> row){
+		ArrayList<String> data= new ArrayList<String>();
+		
+		for(int i=7; i<row.size(); i=i+4){
+			if (row.get(i).equals(input_mac1)){
+				
+				
+			}
+		}
+		
+		
+		return data;
+	}
 }
