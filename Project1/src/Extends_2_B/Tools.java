@@ -17,5 +17,20 @@ public class Tools {
 		}
 		return data_with_mac;
 	}
-
+	public void swap(ArrayList<List<String>> a , int ind1, int ind2){
+		ArrayList<String> temp=new ArrayList<String>();
+		temp.addAll(a.get(ind1));
+		a.remove(ind1);
+		a.add(ind2,temp);
+		
+	}
+	
+	public void SortByPi(ArrayList<List<String>> table){
+		for(int i=0; i<table.size(); i++){
+			for(int j=0; i<table.size()-i-1; j++){
+				if (Double.parseDouble(table.get(j).get(18))>Double.parseDouble(table.get(j+1).get(18))) swap(table,j,j+1);	
+			}
+		}
+//		return table;
+	}
 }

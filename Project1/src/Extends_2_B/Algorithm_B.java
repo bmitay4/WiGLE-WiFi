@@ -5,6 +5,7 @@ import java.util.List;
 
 import File.OpenFile;
 import File.WriteFile;
+import WiFi.WiFi_Algorithm_A;
 
 public class Algorithm_B {
 	
@@ -17,7 +18,8 @@ public class Algorithm_B {
 	
 	
 	public void program(String userLocation,String userDestination, String input_mac1,String input_mac2,String input_mac3,String input_sig1,String input_sig2,String input_sig3 ){
-		
+		int NumOfRows=3; //number of rows we want to compare with
+		Tools t=new Tools();
 		Data_to_comp DTC=new Data_to_comp();
 		WriteFile WF = new WriteFile();
 		Data_we_need DWN= new Data_we_need();
@@ -41,11 +43,32 @@ public class Algorithm_B {
 			//Data_to_comp_row=DTC.DataToComp(Data_we_need);
 //	//		Data_to_comp_row=DTC.DataToComp(Data_with_mac.get(i));
 			Data_to_comp_table.add(Data_to_comp_row);
+			
 		}
+//		WF.writeFiles(userDestination+"test.csv" ,Data_to_comp_table);
+		t.SortByPi(Data_to_comp_table);	
 		WF.writeFiles(userDestination+"test.csv" ,Data_to_comp_table);
+		ArrayList<List<String>> pl_table=new ArrayList<List<String>>();
+		double sLat=0;
+		double sLon=0;
+		double sAlt=0;
+		double sPi=0;
+		double final_lat;
+		double final_lon;
+		double final_alt;
+		for(int i=0; i<NumOfRows; i++){
 			
-			
+			Place pl = new Place(Data_to_comp_table.get(i));
+			sLat=sLat+pl.getLat();
+			sLon=sLon+pl.getLon();
+			sAlt=sAlt+pl.getAlt();
+			sPi=sPi+pl.getPi();
 		}
+		final_lat=sLat/sPi;
+		final_lon=sLon/sPi;
+		final_alt=sAlt/sPi;
+		System.out.println("your position is:"+ final_lat+","+final_lon+","+final_alt);
+	}
 		
 	}
 	
