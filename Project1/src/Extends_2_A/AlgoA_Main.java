@@ -2,7 +2,7 @@ package Extends_2_A;
 
 public class AlgoA_Main {
 	/**
-	 * This is a main class for Part 2 
+	 * This is a main class for Algorithm A, Matala Part 2 
 	 * @author Hani Bakbani, Avital Israeli, Itay Ben Moshe
 	 */
 	
