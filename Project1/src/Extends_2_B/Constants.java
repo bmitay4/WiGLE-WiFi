@@ -7,11 +7,11 @@ public class Constants {
 	private final double signal_diff = 0.4;
 	private final int min_diff = 3;
 	private final String no_signal = "-120";
-	private final int no_signal_diff = 100;
+	private final String no_signal_diff = "100";
 
-	public int diff(String MacSignal, String Signal){
+	public String diff(String MacSignal, String Signal){
 		if(Signal.equals(no_signal)) return no_signal_diff;
-		else return Math.max(Math.abs(Integer.parseInt(MacSignal) - Integer.parseInt(Signal)), min_diff);
+		else return String.valueOf(Math.max(Math.abs(Integer.parseInt(MacSignal) - Integer.parseInt(Signal)), min_diff));
 	}
 
 	public double weight(String MacSignal, String diff){
