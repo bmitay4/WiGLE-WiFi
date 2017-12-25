@@ -13,6 +13,6 @@ public class Algorithm_B {
 
 	public Algorithm_B(ArrayList<List<String>> missingFileMatrix, ArrayList<List<String>> completeFileMatrix, int numOfSamples){
 		this.Matrix = ScanObj.Scan(missingFileMatrix, completeFileMatrix, numOfSamples);
-		Write_OBJ.writeFiles(missingFileMatrix+" - Out", Matrix);
+		Write_OBJ.writeFiles(missingFileMatrix+" - Out", Matrix); 
 	}
 }
