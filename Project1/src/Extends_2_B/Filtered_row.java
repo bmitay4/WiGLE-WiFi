@@ -40,12 +40,12 @@ public class Filtered_row {
 		for(int i=7; i<temp.size(); i=i+4){
 		if(temp.get(i).equals(this.mac2))this.sig2=temp.get(i+2);
 			else this.sig2=no_sig;
-		System.out.println(this.sig2);
+//		System.out.println(this.sig2);
 		}
 		for(int i=7; i<temp.size(); i=i+4){
 		if(temp.get(i).equals(this.mac3))this.sig3=temp.get(i+2);
 			else this.sig3=no_sig;
-		System.out.println(this.sig3);
+//		System.out.println(this.sig3);
 		}
 		this.row.add(lat);
 		this.row.add(lon);

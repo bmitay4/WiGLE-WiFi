@@ -21,16 +21,21 @@ public class Tools {
 		ArrayList<String> temp=new ArrayList<String>();
 		temp.addAll(a.get(ind1));
 		a.remove(ind1);
+		a.add(ind1,a.get(ind2));
 		a.add(ind2,temp);
-		
+//		System.out.println("swap");
 	}
 	
 	public void SortByPi(ArrayList<List<String>> table){
 		for(int i=0; i<table.size(); i++){
 			for(int j=0; i<table.size()-i-1; j++){
-				if (Double.parseDouble(table.get(j).get(18))>Double.parseDouble(table.get(j+1).get(18))) swap(table,j,j+1);	
+//				System.out.println(j);
+				if (Double.parseDouble(table.get(j).get(18))>Double.parseDouble(table.get(j+1).get(18))) {
+					swap(table,j,j+1);	
+				}
 			}
 		}
+		System.out.println("end sort");
 //		return table;
 	}
 }
