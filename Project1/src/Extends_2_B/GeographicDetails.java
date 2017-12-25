@@ -13,14 +13,17 @@ public class GeographicDetails {
 	
 	public String lat, lon, alt;
 	
-	public GeographicDetails(List<String> Row){
+	public GeographicDetails(List<String> Row){	//Geographic Details Class
+		
 		WiFi_Algorithm_Bplus WiFiB = new WiFi_Algorithm_Bplus(Row);
 		this.lat = String.valueOf((WiFiB.getLat()));
 		this.lon = String.valueOf(WiFiB.getLon());
 		this.alt = String.valueOf(WiFiB.getAlt());
+		
 	}
 	
-	protected List<String> GDetailsToArray(){
+	protected List<String> GDetailsToArray(){	//Return list of GDetalis
+		
 		List<String> Temp = new ArrayList<>();
 		Temp.add(this.lat);
 		Temp.add(this.lon);

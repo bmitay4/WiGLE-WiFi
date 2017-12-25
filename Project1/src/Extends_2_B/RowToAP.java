@@ -7,7 +7,7 @@ public class RowToAP {
 
 	private GeographicDetails GDetalis;
 	
-	public List<String> RowToAPrray(ArrayList<String> AP, List<String> Row){
+	public List<String> RowToAPrray(ArrayList<String> AP, List<String> Row){	//Generate an array list with GDetalis and Mac's properties
 		List<String> Temp = new ArrayList<>();
 		GDetalis = new GeographicDetails(Row);
 		Temp.addAll(GDetalis.GDetailsToArray());
@@ -19,7 +19,7 @@ public class RowToAP {
 				}
 				else Temp.add("-120") ;	//Otherwise, add -120
 		}
-		piCalculate piObj = new piCalculate();
+		piCalculate piObj = new piCalculate();	//Calculate and add to to the end oft he row PI value
 		piObj.addPi(Temp, AP);
 		return Temp;
 	}

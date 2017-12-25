@@ -1,6 +1,7 @@
 package Extends_2_B;
 
-public class Constants {
+
+public class Constants {	//Class for Constants, used at algorithm 2
 
 	private final int power = 2;
 	private final int normal = 10000;
@@ -9,12 +10,12 @@ public class Constants {
 	private final String no_signal = "-120";
 	private final String no_signal_diff = "100";
 
-	public String diff(String MacSignal, String Signal){
+	public String diff(String MacSignal, String Signal){	//Calculate diff
 		if(Signal.equals(no_signal)) return no_signal_diff;
 		else return String.valueOf(Math.max(Math.abs(Integer.parseInt(MacSignal) - Integer.parseInt(Signal)), min_diff));
 	}
 
-	public double weight(String MacSignal, String diff){
+	public double weight(String MacSignal, String diff){	//Calculate weight
 		int diffInt = Math.abs(Integer.parseInt(diff));
 		int macInt = Math.abs(Integer.parseInt(MacSignal));
 
