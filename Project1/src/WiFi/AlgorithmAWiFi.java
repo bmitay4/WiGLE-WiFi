@@ -2,15 +2,15 @@ package WiFi;
 
 import java.util.List;
 
-public class WiFi_Algorithm_A {
+public class AlgorithmAWiFi {
 
-	double Signal;
-	double Lat;
-	double Lon;
-	double Alt;
+	private int Signal;
+	private double Lat;
+	private double Lon;
+	private double Alt;
 	List<String> WiFi_Row;
 
-	public WiFi_Algorithm_A(List<String> WiFi_Row){
+	public AlgorithmAWiFi(List<String> WiFi_Row){
 		this.WiFi_Row = WiFi_Row;
 		this.Signal = getSignal();
 		this.Lat = getLat();
@@ -27,7 +27,7 @@ public class WiFi_Algorithm_A {
 	public double getAlt(){
 		return Double.parseDouble(this.WiFi_Row.get(4));
 	}
-	public double getSignal(){
-		return Double.parseDouble(this.WiFi_Row.get(6));
+	public int getSignal(){
+		return Integer.parseInt((this.WiFi_Row.get(6)));
 	}
 }
