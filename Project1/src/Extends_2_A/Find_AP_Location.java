@@ -15,9 +15,9 @@ public class Find_AP_Location {
 	
 	public void Program(String userLocation, int numOfSamples){
 		
-		this.Matrix = OpenFile_Object.openFiles(userLocation);
+		this.Matrix = OpenFile_Object.openFiles(userLocation);	//Reading the CSV file and put in into a Matrix
 		this.FinalMatrix = Matrix_Scan_Obj.Matrix_Scan(this.Matrix, numOfSamples);
-		WriteFile_Obj.writeFiles(userLocation+" - Out.csv", FinalMatrix);
+		WriteFile_Obj.writeFiles(userLocation+" - Out.csv", FinalMatrix);	//Write the final to disk
 		
 	}
 
