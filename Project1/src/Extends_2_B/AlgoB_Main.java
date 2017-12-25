@@ -11,7 +11,6 @@ public class AlgoB_Main {
 		String completeFile = "C:/OOPGit/_comb_all_BM2_.csv";
 		int numOfSamples = 3;
 
-
 		Find_User_Location_2 Go2 = new Find_User_Location_2();
 		
 		Go2.Program(missingFile, completeFile, numOfSamples);
