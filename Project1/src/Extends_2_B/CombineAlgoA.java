@@ -3,7 +3,7 @@ package Extends_2_B;
 import java.util.ArrayList;
 import java.util.List;
 
-import Extends_2_A.AlgorithmA;
+import Extends_2_A.APSumDetalis;
 
 public class CombineAlgoA {	//Combine Algo1 in Algo2
 
@@ -18,7 +18,7 @@ public class CombineAlgoA {	//Combine Algo1 in Algo2
 		this.TotalGDetails = new ArrayList<>();
 
 		resetAPMatrix();
-		AlgorithmA AlgoA = new AlgorithmA(APMatrix);
+		APSumDetalis AlgoA = new APSumDetalis(APMatrix);
 
 		//Create a list, with the total geographic details
 		if(APMatrix.size() != 0){	//In case the input was'nt at matrix at all
