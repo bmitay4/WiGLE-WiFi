@@ -11,16 +11,24 @@ public class RowToAP {
 		List<String> Temp = new ArrayList<>();
 		GDetalis = new GeographicDetails(Row);
 		Temp.addAll(GDetalis.GDetailsToArray());
+		removeNull(Temp);
 		
 		for (int i = 0; i < AP.size(); i = i + 2) {
 				Temp.add(AP.get(i)); //Adding the MAC 
 				if(Row.indexOf(AP.get(i)) != -1) {
-					Temp.add(Row.get(Row.indexOf(AP.get(i)) + 2)); //If the MAC is listed, add her signal
+					double tempSignal = Double.valueOf(Row.get(Row.indexOf(AP.get(i)) + 2));
+					int intTempSignal = (int) tempSignal;
+					Temp.add(String.valueOf(intTempSignal)); //If the MAC is listed, add her signal
 				}
 				else Temp.add("-120") ;	//Otherwise, add -120
 		}
 		piCalculate piObj = new piCalculate();	//Calculate and add to to the end oft he row PI value
 		piObj.addPi(Temp, AP);
 		return Temp;
+	}
+	private void removeNull(List<String> Temp){
+		for (int i = 0; i < Temp.size(); i++) {
+			if(Temp.get(i).equals(null)) Temp.remove(i);
+		}
 	}
 }

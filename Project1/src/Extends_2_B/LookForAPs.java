@@ -19,7 +19,8 @@ public class LookForAPs {
 
 	private boolean isContain(ArrayList<String> AP, List<String> Row){ //Checks if a row contain one of the input mac
 		for (int i = 0; i < AP.size(); i = i + 2) {
-			if(Row.contains((AP.get(i)))) return true;
+			if(Row.contains((AP.get(i)))) 
+				return true;
 		}
 		return false;
 	}

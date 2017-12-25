@@ -15,12 +15,12 @@ public class piCalculate {
 
 	private double weightCalculate(List<String> MatrixRow, ArrayList<String> AP){	//Weight calculate
 		for (int j = 0; j < AP.size(); j = j + 2) {
-			String APSignal = AP.get(j + 1);
-			String currentSignal = MatrixRow.get(j + 4);
+				String APSignal = AP.get(j + 1);
+				String currentSignal = MatrixRow.get(j + 4);
 
-			String diff = Const.diff(APSignal, currentSignal);
-			double weight = Const.weight(APSignal, diff);
-			this.weight = this.weight * weight;		//Calculate the PI of each row
+				String diff = Const.diff(APSignal, currentSignal);
+				double weight = Const.weight(APSignal, diff);
+				this.weight = this.weight * weight;		//Calculate the PI of each row
 		}
 		return this.weight;
 	}
