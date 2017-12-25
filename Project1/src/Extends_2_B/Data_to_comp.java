@@ -59,7 +59,7 @@ public class Data_to_comp {
 		Data_to_comp_row.add(temp.getInput_sig3());
 		Data_to_comp_row.add(temp.getSig3());
 		Data_to_comp_row.add(diff(min_diff, no_sig,diff_no_sig,temp.getInput_sig3(),temp.getSig3()));
-		System.out.println("hani");
+//		System.out.println("hani");
 		Data_to_comp_row.add(weight(power,norm, sig_diff,Data_to_comp_row.get(16),temp.getInput_sig3()));
 		
 //		Data_to_comp_row.add(diff(min_diff, no_sig,diff_no_sig, Data_to_comp_row.get(14), Data_to_comp_row.get(15)));//diff3
