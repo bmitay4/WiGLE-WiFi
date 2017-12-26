@@ -3,7 +3,7 @@ package WiFi;
 import java.util.ArrayList;
 import java.util.List;
 
-public class WiFi_Single {	//Parameters for a single AP
+public class SingleWiFi {	//Parameters for a single AP
 	
 	private String SSID;
 	private String MAC;
@@ -11,7 +11,7 @@ public class WiFi_Single {	//Parameters for a single AP
 	private String Signal;
 	List<String> WiFi;
 	
-	public WiFi_Single(List<String> WiFi){
+	public SingleWiFi(List<String> WiFi){
 		this.WiFi = WiFi;
 	}
 	public List<String> WiFiToArray(){

@@ -3,7 +3,7 @@ package Extends_2_A;
 import java.util.ArrayList;
 import java.util.List;
 
-import WiFi.WiFi_GDetails;
+import WiFi.GDetailsWiFi;
 
 public class APDetalis {
 
@@ -14,10 +14,10 @@ public class APDetalis {
 
 	public APDetalis(ArrayList<List<String>> APMatrix){
 		for (int i = 0; i < APMatrix.size(); i++) {
-			WiFi_GDetails AWiFi = new WiFi_GDetails(APMatrix.get(i));
-			this.Lat = this.Lat + AWiFi.getLat();
-			this.Lon = this.Lon + AWiFi.getLon();
-			this.Alt = this.Alt + AWiFi.getAlt();
+			GDetailsWiFi AWiFi = new GDetailsWiFi(APMatrix.get(i));
+			this.Lat = this.Lat + AWiFi.getwLat();
+			this.Lon = this.Lon + AWiFi.getwLon();
+			this.Alt = this.Alt + AWiFi.getwAlt();
 			this.WeightPi = this.WeightPi + AWiFi.getWeightPi();
 		}
 	}

@@ -7,8 +7,8 @@ public class AlgoB_Main {
 	 */
 	public static void main(String[] args) {
 
-		String missingFile = "C:/OOPGit/testing/_comb_no_gps_ts2.csv";
-		String completeFile = "C:/OOPGit/testing/_comb_all_BM3_.csv";
+		String missingFile = "C:/OOPGit/testing/_comb_no_gps_ts1.csv";
+		String completeFile = "C:/OOPGit/testing/_comb_all_BM2_.csv";
 		int numOfSamples = 3;
 
 		FindUserLocation2 Go2 = new FindUserLocation2();

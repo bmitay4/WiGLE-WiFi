@@ -3,7 +3,8 @@ package Extends_2_B;
 import java.util.ArrayList;
 import java.util.List;
 
-import WiFi.WiFi_Algorithm_Bplus;
+import WiFi.GeneralWiFi;
+import WiFi.MultiWiFi;
 
 /**
  *	This class makes the geographic details available
@@ -11,23 +12,34 @@ import WiFi.WiFi_Algorithm_Bplus;
 
 public class GeographicDetails {
 	
-	public String lat, lon, alt;
-	
+	private String Date;
+	private String ID;
+	public String Lat;
+	public String Lon;
+	public String Alt;
+	private String numOfWiFi;
+
 	public GeographicDetails(List<String> Row){	//Geographic Details Class
+		MultiWiFi MultiObj = new MultiWiFi(Row);
+		GeneralWiFi GeneralObj = new GeneralWiFi(Row);
 		
-		WiFi_Algorithm_Bplus WiFiB = new WiFi_Algorithm_Bplus(Row);
-		this.lat = String.valueOf((WiFiB.getLat()));
-		this.lon = String.valueOf(WiFiB.getLon());
-		this.alt = String.valueOf(WiFiB.getAlt());
-		
+		this.Date = GeneralObj.getDate();
+		this.ID = GeneralObj.getID();
+		this.Lat = GeneralObj.getLat();
+		this.Lon = GeneralObj.getLon();
+		this.Alt = GeneralObj.getAlt();
+		this.numOfWiFi = MultiObj.getNumOfWiFi();
 	}
 	
 	protected List<String> GDetailsToArray(){	//Return list of GDetalis
 		
 		List<String> Temp = new ArrayList<>();
-		Temp.add(this.lat);
-		Temp.add(this.lon);
-		Temp.add(this.alt);
+		Temp.add(this.Date);
+		Temp.add(this.ID);
+		Temp.add(this.Lat);
+		Temp.add(this.Lon);
+		Temp.add(this.Alt);
+		Temp.add(this.numOfWiFi);
 		
 		return Temp;
 
