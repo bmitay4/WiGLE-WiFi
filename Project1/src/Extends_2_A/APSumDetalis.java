@@ -3,15 +3,15 @@ package Extends_2_A;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AlgorithmA {
+public class APSumDetalis {
 	
 	private double Lat = 0;
 	private double Lon = 0;
 	private double Alt = 0;
 	private double WeightPi;
 	
-	public AlgorithmA(ArrayList<List<String>> APMatrix){
-		AlgorithmA1 Algo1 = new AlgorithmA1(APMatrix);
+	public APSumDetalis(ArrayList<List<String>> APMatrix){
+		APDetalis Algo1 = new APDetalis(APMatrix);
 		this.WeightPi = Algo1.getWeightPi();
 		this.Lat = Algo1.getLat() / this.WeightPi;
 		this.Lon = Algo1.getLon() / this.WeightPi;

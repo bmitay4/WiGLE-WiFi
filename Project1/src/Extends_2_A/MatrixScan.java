@@ -3,13 +3,11 @@ package Extends_2_A;
 import java.util.ArrayList;
 import java.util.List;
 
-import WiFi.All_WiFi;
 import WiFi.WiFi_Algorithm_B;
 
 public class MatrixScan {
 
 	private String MAC;
-	private All_WiFi All_WiFi_Obj = new All_WiFi();
 	private WiFi_Algorithm_B WiFi_Algo_B;
 	private CompareAndOut CompareAndOut_Obj = new CompareAndOut();
 	private ArrayList<List<String>> FinalMatrix = new ArrayList<>();

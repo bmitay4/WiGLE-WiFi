@@ -1,6 +1,6 @@
 package Extends_2_A;
 
-import WiFi.WiFi_Algorithm_A;
+import WiFi.AlgorithmAWiFi;
 
 public class AP_Properties {
 
@@ -9,7 +9,7 @@ public class AP_Properties {
 	double wAlt;
 	double weight;
 
-	public AP_Properties(WiFi_Algorithm_A WiFi_Algo_A_Obj){
+	public AP_Properties(AlgorithmAWiFi WiFi_Algo_A_Obj){
 		
 			this.weight = 1.0/(Math.pow(WiFi_Algo_A_Obj.getSignal(), 2));
 			this.wLat = WiFi_Algo_A_Obj.getLat()*this.weight;

@@ -3,7 +3,7 @@ package WiFi;
 import java.util.ArrayList;
 import java.util.List;
 
-public class WiFi_Single {
+public class WiFi_Single {	//Parameters for a single AP
 	
 	private String SSID;
 	private String MAC;

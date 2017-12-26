@@ -3,18 +3,18 @@ package Extends_2_A;
 import java.util.ArrayList;
 import java.util.List;
 
-import WiFi.AlgoAWiFi;
+import WiFi.WiFi_GDetails;
 
-public class AlgorithmA1 {
+public class APDetalis {
 
 	private double Lat = 0;
 	private double Lon = 0;
 	private double Alt = 0;
 	private double WeightPi = 0;
 
-	public AlgorithmA1(ArrayList<List<String>> APMatrix){
+	public APDetalis(ArrayList<List<String>> APMatrix){
 		for (int i = 0; i < APMatrix.size(); i++) {
-			AlgoAWiFi AWiFi = new AlgoAWiFi(APMatrix.get(i));
+			WiFi_GDetails AWiFi = new WiFi_GDetails(APMatrix.get(i));
 			this.Lat = this.Lat + AWiFi.getLat();
 			this.Lon = this.Lon + AWiFi.getLon();
 			this.Alt = this.Alt + AWiFi.getAlt();

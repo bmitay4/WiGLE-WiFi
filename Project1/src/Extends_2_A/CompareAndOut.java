@@ -10,7 +10,7 @@ public class CompareAndOut {
 	String Channel;
 	private ArrayList<List<String>>Matrix, AP_Matrix;
 	private MAC_Matrix_A MAC_Matrix_Obj = new MAC_Matrix_A();
-	private Sort_AP_Matrix Sort_AP_Matrix_Obj = new Sort_AP_Matrix();
+	private SortMatrix Sort_AP_Matrix_Obj = new SortMatrix();
 	private Algorithm_A Algo_Obj;
 	SetListToFinal setList = new SetListToFinal();
 
@@ -18,7 +18,7 @@ public class CompareAndOut {
 		this.Matrix = Matrix;
 		this.MAC = Mac;
 		this.AP_Matrix = MAC_Matrix_Obj.isContainsMAC(this.Matrix, MAC);
-		Sort_AP_Matrix_Obj.Sort_AP(AP_Matrix, numOfSamples);				
+		Sort_AP_Matrix_Obj.Sort(AP_Matrix, numOfSamples);				
 		int SignalIndex = AP_Matrix.get(0).size();
 		this.Signal = AP_Matrix.get(0).get(SignalIndex-2);
 		this.Channel = AP_Matrix.get(0).get(SignalIndex-3);

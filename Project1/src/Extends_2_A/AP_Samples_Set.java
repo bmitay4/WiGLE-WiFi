@@ -3,7 +3,7 @@ package Extends_2_A;
 import java.util.ArrayList;
 import java.util.List;
 
-import WiFi.WiFi_Algorithm_A;
+import WiFi.AlgorithmAWiFi;
 
 public class AP_Samples_Set {
 
@@ -15,7 +15,7 @@ public class AP_Samples_Set {
 		
 		this.APList = new ArrayList<>(AP_Matrix.size());
 		for (int i = 0; i < AP_Matrix.size(); i++) {
-			WiFi_Algorithm_A WiFi_Algo_A_Obj = new WiFi_Algorithm_A(AP_Matrix.get(i));
+			AlgorithmAWiFi WiFi_Algo_A_Obj = new AlgorithmAWiFi(AP_Matrix.get(i));
 			AP = new AP_Properties(WiFi_Algo_A_Obj);
 			APList.add(AP);
 		}
