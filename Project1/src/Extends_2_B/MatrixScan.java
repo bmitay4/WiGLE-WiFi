@@ -19,7 +19,7 @@ public class MatrixScan {
 			CombAlgoA.AlgoACompare(APRow, this.APMatrix, numOfSamples);
 			
 			//Add the final row with the totalGD to the final matrix
-			if(CombAlgoA.TotalGDetails.size() > 1) FinalMatrix.add(CombAlgoA.TotalGDetails);
+			FinalMatrix.add(CombAlgoA.TotalGDetails);
 		}
 		return FinalMatrix;
 	}

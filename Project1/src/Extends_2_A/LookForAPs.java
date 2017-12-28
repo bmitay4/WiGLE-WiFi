@@ -10,9 +10,10 @@ public class LookForAPs {
 	private RowToAp RowToAPObj = new RowToAp();
 	WeightTools WeightToolsObj = new WeightTools();
 
-	public void setAPMatrix(String Mac, ArrayList<List<String>> FullMatrix, ArrayList<List<String>> APMatrix){
+	public void setAPMatrix(String Mac, ArrayList<List<String>> APMatrix, ArrayList<List<String>> FullMatrix){
 		this.Mac = Mac;
 		this.Matrix = FullMatrix;
+		
 		for (int i = 0; i < FullMatrix.size(); i++) {
 			if(isContain(i)){
 				APMatrix.add(RowToAPObj.RowToAPrray(Mac, Matrix.get(i)));

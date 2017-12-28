@@ -22,14 +22,16 @@ public class MatrixScan {
 			if(FullMatrix.get(i).size() > 1){	//In case we got an empty row, do not enter it
 				MultiObj = new MultiWiFi(FullMatrix.get(i));	//New MultiWiFi object
 				List<String> Temp = MultiObj.MultiWiFiToArray();
+				
 				for (int j = 6; j < Temp.size(); j = j + 4) {
-					APMatrix = new ArrayList<>();
+					this.APMatrix = new ArrayList<>();
 					String Mac = MultiObj.getMAC(j);
-					if(!isContains(FinalMatrix, Mac)){	//If we didn't saw that Mac before
-						LookForObj.setAPMatrix(Mac, FullMatrix, APMatrix);	//Generates a matrix with all the shows of the current mac
+					
+					if(!isContains(FinalMatrix, Mac)){	//If we didn't saw that Mac before, enter the process
+						LookForObj.setAPMatrix(Mac, this.APMatrix, FullMatrix);	//Generates a matrix with all the shows of the current mac
 						SingleWiFi SWiFi = new SingleWiFi(Temp);	//New single WiFi object
 						this.APRow = SWiFi.byMac(j);
-						AlgoA.AlgoA(APRow, APMatrix, numOfSamples);	//Algo A, calculate the LLA
+						AlgoA.AlgoA(this.APRow, this.APMatrix, numOfSamples);	//Algo A, calculate the LLA
 						FinalMatrix.add(AlgoA.TotalGDetails);	//Add the final row to the final matrix
 					}
 				}

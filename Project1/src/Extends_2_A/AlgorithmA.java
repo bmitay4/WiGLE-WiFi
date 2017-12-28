@@ -9,19 +9,21 @@ public class AlgorithmA {
 	protected double lat, lon, alt;
 	private ArrayList<List<String>> APMatrix;
 	private int numOfSamples;
+	List<String> AP_Row;
 
 	public void AlgoA(List<String> AP_Row, ArrayList<List<String>> APMatrix, int numOfSamples){
 		this.APMatrix = APMatrix;
 		this.numOfSamples = numOfSamples;
 		this.TotalGDetails = new ArrayList<>();
+		this.AP_Row = AP_Row;
 
 		resetAPMatrix();
 
 		APSumDetalis AlgoA = new APSumDetalis(APMatrix);
 
 		//Changing the geographic details
-		removeOldGD(AP_Row);	//Remove old GD
-		setNewGD(AP_Row, AlgoA);	//Set new GD
+		removeOldGD();	//Remove old GD
+		setNewGD(AlgoA);	//Set new GD
 		this.TotalGDetails = AP_Row;
 	}
 
@@ -30,17 +32,14 @@ public class AlgorithmA {
 			this.APMatrix.remove(i);
 		}
 	}
-	private void removeOldGD(List<String> APRow){
-		APRow.remove(0);	//Remove date and time
+	private void removeOldGD(){
 		for (int i = 0; i < 3; i++) {
-			APRow.remove(1);
+			this.AP_Row.remove(2);
 		}
 	}
-	private void setNewGD(List<String> APRow, APSumDetalis AlgoA){
-		for (int i = 0; i < 3; i++) {
-			APRow.add(1, String.valueOf(AlgoA.getAlt()));
-			APRow.add(1, String.valueOf(AlgoA.getLon()));
-			APRow.add(1, String.valueOf(AlgoA.getLat()));
-		}
+	private void setNewGD (APSumDetalis AlgoA){
+		this.AP_Row.add(2, String.valueOf(AlgoA.getAlt()));
+		this.AP_Row.add(2, String.valueOf(AlgoA.getLon()));
+		this.AP_Row.add(2, String.valueOf(AlgoA.getLat()));
 	}
 }
