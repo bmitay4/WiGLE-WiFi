@@ -29,7 +29,6 @@ public class MultiWiFi extends GeneralWiFi {
 		Temp.add(this.WiFi.get(i + 2));
 		Temp.add(this.WiFi.get(i + 3));
 		return Temp;
-
 	}
 	
 	public String getSSID(int i) {

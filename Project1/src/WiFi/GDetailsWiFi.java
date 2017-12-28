@@ -20,10 +20,6 @@ public class GDetailsWiFi extends GeneralWiFi{
 		this.wLat = Double.valueOf(GeneralObj.getLat()) * this.WeightPi;
 		this.wLon = Double.valueOf(GeneralObj.getLon()) * this.WeightPi;
 		this.wAlt = Double.valueOf(GeneralObj.getAlt()) * this.WeightPi;
-
-//		this.wLat = Double.valueOf(APRow.get(0)) * this.WeightPi;
-//		this.wLon = Double.valueOf(APRow.get(1)) * this.WeightPi;
-//		this.wAlt = Double.valueOf(APRow.get(2)) * this.WeightPi;
 	}
 	
 	public double getwLat() {

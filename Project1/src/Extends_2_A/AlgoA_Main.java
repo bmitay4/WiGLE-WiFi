@@ -8,7 +8,7 @@ public class AlgoA_Main {
 	
 	public static void main(String[] args) {
 		
-		String userLocation = "C:/Users/איתי בן משה/git/ArielOOP/Project1/docs/Algo 1/_comb_all_BM1_.csv";
+		String userLocation = "C:/Users/איתי בן משה/git/ArielOOP/Project1/docs/Algo 1/_comb_all_BM2_.csv";
 		int numOfSamples = 3;
 		  
 		FindAPLocation Go = new FindAPLocation();
