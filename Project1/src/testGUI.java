@@ -8,10 +8,13 @@ import java.awt.Color;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.SwingConstants;
+import javax.swing.JTextField;
 
 public class testGUI {
 
 	private JFrame frame;
+	private JTextField WigglePath;
+	private Matefet matefet = new Matefet();
 
 	/**
 	 * Launch the application.
@@ -48,16 +51,24 @@ public class testGUI {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
-		JButton btnNewButton = new JButton("example");
-		btnNewButton.setForeground(new Color(0, 0, 0));
-		btnNewButton.addActionListener(new ActionListener() {
+		JButton btnExample = new JButton("Example");
+		btnExample.setForeground(new Color(0, 0, 0));
+		btnExample.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				JOptionPane.showMessageDialog(null, "good choice:)");
+				//JOptionPane.showMessageDialog(null, "good choice:)");
+				String path = WigglePath.getText();
+				matefet.goToOpenFolder(path);
 			}
 		});
-		btnNewButton.setBackground(new Color(102, 0, 102));
-		btnNewButton.setFont(new Font("Sylfaen", Font.BOLD, 26));
-		btnNewButton.setBounds(141, 107, 154, 68);
-		frame.getContentPane().add(btnNewButton);
+		btnExample.setBackground(new Color(102, 0, 102));
+		btnExample.setFont(new Font("Sylfaen", Font.BOLD, 26));
+		btnExample.setBounds(12, 48, 154, 68);
+		frame.getContentPane().add(btnExample);
+		
+		WigglePath = new JTextField();
+		WigglePath.setText("Enter folder");
+		WigglePath.setBounds(191, 72, 229, 22);
+		frame.getContentPane().add(WigglePath);
+		WigglePath.setColumns(10);
 	}
 }
