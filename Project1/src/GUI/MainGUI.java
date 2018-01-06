@@ -20,7 +20,7 @@ import javax.swing.JToolBar;
 import javax.swing.JToggleButton;
 import javax.swing.JLabel;
 
-public class Main {
+public class MainGUI {
 
 	private JFrame frame;
 	private OpenFiles OpenFilesObj;
@@ -43,7 +43,7 @@ public class Main {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Main window = new Main();
+					MainGUI window = new MainGUI();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -55,7 +55,7 @@ public class Main {
 	/**
 	 * Create the application.
 	 */
-	public Main() {
+	public MainGUI() {
 		initialize();
 	}
 
