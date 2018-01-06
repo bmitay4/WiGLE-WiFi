@@ -27,7 +27,7 @@ public class OpenFolder {
 	 * @return
 	 */
 	
-	public ArrayList<List<String>> openFolder(String location, String destination) {
+	public ArrayList<List<String>> openFolder(String location) {
 		this.new_Matrix = new ArrayList<>();
 		this.temp_Matrix = new ArrayList<>();
 		
@@ -55,5 +55,25 @@ public class OpenFolder {
 		for (int i = 0; i < temp_Matrix.size(); i++) {
 			new_Matrix.add(temp_Matrix.get(i));
 		}
+	}
+	public void addSingleMatrix(ArrayList<List<String>> new_Matrix, String filename){
+		this.File_Path = filename;
+		this.temp_Matrix = Open_File_Object.openFiles(File_Path);
+		All_Rows_Object.getDetails(temp_Matrix);
+		updateMatrix(new_Matrix, temp_Matrix);
+	}
+	public void addFolderMatrix(ArrayList<List<String>> new_Matrix, String folderLocation){
+		this.temp_Matrix = new ArrayList<>();
+		File folder = new File(folderLocation);
+		File[] listOfFiles = folder.listFiles();
+		for(int i = 0; i < listOfFiles.length; i++){
+			String filename = listOfFiles[i].getName();
+			if(filename.endsWith(".csv")){
+				this.File_Path = folderLocation+"/"+filename;
+				this.temp_Matrix = Open_File_Object.openFiles(File_Path);
+			}
+			All_Rows_Object.getDetails(temp_Matrix);
+			updateMatrix(new_Matrix, temp_Matrix);
+		}		
 	}
 }

@@ -31,7 +31,7 @@ public class Run {
 		this.userLocation = userLocation;
 		this.userDestination = userDestination;
 
-		Matrix = Open_Folder_Object.openFolder(userLocation, userDestination);
+		Matrix = Open_Folder_Object.openFolder(userLocation);
 		Sort_Rows_Object.sortBySignal(Matrix);
 		Merge_Rows_Object.Merge(Matrix);
 		Write_File_Object.writeFiles(userDestination+"mergeCSV.csv", Matrix);

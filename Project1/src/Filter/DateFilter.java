@@ -46,7 +46,7 @@ public class DateFilter {
 		WriteKML_Object.exportKml(userDestination, Matrix);
 	}
 
-	private void dateFilter(ArrayList<List<String>> Matrix, String userStartDate, String userEndDate) {
+	public void dateFilter(ArrayList<List<String>> Matrix, String userStartDate, String userEndDate) {
 		for (int i = 1; i < Matrix.size(); i++) {
 			Single_Row_After_Merge_Object = new Single_Row_After_Merge(Matrix.get(i));
 			String currentlyTime = Single_Row_After_Merge_Object.getTime();

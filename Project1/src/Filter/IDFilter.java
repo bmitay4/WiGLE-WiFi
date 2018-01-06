@@ -33,7 +33,7 @@ public class IDFilter {
 		WriteKML_Object.exportKml(userDestination, Matrix);
 	}
 
-	private void IDfilter(ArrayList<List<String>> Matrix, String ID){
+	public void IDfilter(ArrayList<List<String>> Matrix, String ID){
 		if(!isIDExist(Matrix, ID)) System.out.println("ID not exist!");
 		else{
 			for (int i = 1; i < Matrix.size(); i++) {
