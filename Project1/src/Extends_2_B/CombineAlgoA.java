@@ -9,11 +9,14 @@ public class CombineAlgoA {	//Combine Algo1 in Algo2
 
 	List<String> TotalGDetails; 
 	ArrayList<List<String>> APMatrix;
+	List<String> AP_Row;
+
 	int numOfSamples;
 	double lat, lon, alt;
 
 	public void AlgoACompare(List<String> AP_Row, ArrayList<List<String>> APMatrix, int numOfSamples){
 		this.APMatrix = APMatrix;
+		this.AP_Row = AP_Row;
 		this.numOfSamples = numOfSamples;
 		this.TotalGDetails = new ArrayList<>();
 
@@ -22,8 +25,11 @@ public class CombineAlgoA {	//Combine Algo1 in Algo2
 		APSumDetalis AlgoA = new APSumDetalis(APMatrix);
 
 		//Changing the geographic details
-		removeOldGD(AP_Row);	//Remove old GD
-		setNewGD(AP_Row, AlgoA);	//Set new GD
+		if(AP_Row.size() == 0) setNewGD2(AlgoA);
+		else{
+			removeOldGD(AP_Row);	//Remove old GD
+			setNewGD(AP_Row, AlgoA);	//Set new GD
+		}
 		
 		this.TotalGDetails = AP_Row;
 
@@ -45,5 +51,11 @@ public class CombineAlgoA {	//Combine Algo1 in Algo2
 			APRow.add(1, String.valueOf(AlgoA.getLon()));
 			APRow.add(1, String.valueOf(AlgoA.getLat()));
 		}
+	}
+	private void setNewGD2(APSumDetalis AlgoA){
+		this.AP_Row.add(String.valueOf(AlgoA.getAlt()));
+		this.AP_Row.add(String.valueOf(AlgoA.getLat()));
+		this.AP_Row.add(String.valueOf(AlgoA.getLon()));
+
 	}
 }

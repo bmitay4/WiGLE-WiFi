@@ -6,7 +6,6 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-
 import java.awt.Font;
 import javax.swing.JTabbedPane;
 import javax.swing.JCheckBox;
@@ -200,8 +199,8 @@ public class Algorithms extends JFrame {
 				
 				if(checkBox[0] == true && checkBox[1] == false) WrapObj.AlgorithmA(Matrix, Mac); //Algo A
 				if(checkBox[0] == false && checkBox[1] == true){ //Algo B
-					if(checkBox1[0] == true && checkBox1[1] == false); //Algo B1
-					else if(checkBox1[0] == false && checkBox1[1] == true); //Algo B2
+					if(checkBox1[0] == true && checkBox1[1] == false) WrapObj.AlgorithmB1(Matrix, MacString); //Algo B1 
+					else if(checkBox1[0] == false && checkBox1[1] == true) WrapObj.AlgorithmB2(Matrix, uMac1, uMac2, uMac3, Sig1, Sig2, Sig3);//Algo B2
 				}
 				
 			}
@@ -220,4 +219,5 @@ public class Algorithms extends JFrame {
 		button.setBounds(10, 319, 153, 32);
 		contentPane.add(button);
 	}
+
 }

@@ -23,4 +23,33 @@ public class MatrixScan {
 		}
 		return FinalMatrix;
 	}
+	public List<String> byString(List<String> Row, ArrayList<List<String>> Matrix){
+		APMatrix = new ArrayList<>();
+		LookForObj.setAPMatrix(this.APMatrix, Row , Matrix);
+		CombAlgoA.AlgoACompare(Row, this.APMatrix, 4);
+		return CombAlgoA.TotalGDetails;
+	}
+	public List<String> byValues(ArrayList<List<String>> Matrix, String Mac1, String Mac2, String Mac3, String Sig1, String Sig2, String Sig3){
+		List<String> Row = valuesToList(Mac1, Mac2, Mac3, Sig1, Sig2, Sig3);
+		APMatrix = new ArrayList<>();
+		LookForObj.setAPMatrix(this.APMatrix, Row , Matrix);
+		CombAlgoA.AlgoACompare(Row, this.APMatrix, 4);
+		return CombAlgoA.TotalGDetails;
+	}
+	private List<String> valuesToList(String Mac1, String Mac2, String Mac3, String Sig1, String Sig2, String Sig3){
+		List<String> Temp = new ArrayList<>();
+		if(Mac1 != null && Sig1 != null){
+			Temp.add(Mac1);
+			Temp.add(Sig1);
+		}
+		if(Mac2 != null && Sig2 != null){
+			Temp.add(Mac2);
+			Temp.add(Sig2);
+		}
+		if(Mac3 != null && Sig3 != null){
+			Temp.add(Mac3);
+			Temp.add(Sig3);
+		}
+		return Temp;
+	}
 }
