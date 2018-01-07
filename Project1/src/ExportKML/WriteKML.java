@@ -52,7 +52,7 @@ public class WriteKML {
 
 		// Print and save
 		try {
-			kml.marshal(new File(userDestination+"KmlFile.kml"));
+			kml.marshal(new File(userDestination+".kml"));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}

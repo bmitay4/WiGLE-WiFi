@@ -22,8 +22,11 @@ public class AlgorithmA {
 		APSumDetalis AlgoA = new APSumDetalis(APMatrix);
 
 		//Changing the geographic details
-		removeOldGD();	//Remove old GD
-		setNewGD(AlgoA);	//Set new GD
+		if(AP_Row.size() == 0) setNewGD2(AlgoA);
+		else{
+			removeOldGD();	//Remove old GD
+			setNewGD(AlgoA);	//Set new GD
+		}
 		this.TotalGDetails = AP_Row;
 	}
 
@@ -41,5 +44,11 @@ public class AlgorithmA {
 		this.AP_Row.add(2, String.valueOf(AlgoA.getAlt()));
 		this.AP_Row.add(2, String.valueOf(AlgoA.getLon()));
 		this.AP_Row.add(2, String.valueOf(AlgoA.getLat()));
+	}
+	private void setNewGD2(APSumDetalis AlgoA){
+		this.AP_Row.add(String.valueOf(AlgoA.getAlt()));
+		this.AP_Row.add(String.valueOf(AlgoA.getLat()));
+		this.AP_Row.add(String.valueOf(AlgoA.getLon()));
+
 	}
 }

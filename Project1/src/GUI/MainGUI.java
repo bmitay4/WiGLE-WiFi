@@ -17,6 +17,9 @@ import javax.swing.JButton;
 import javax.swing.JList;
 import java.awt.Font;
 import javax.swing.JToolBar;
+
+import Row.Merge_Rows;
+
 import javax.swing.JToggleButton;
 import javax.swing.JLabel;
 
@@ -35,6 +38,7 @@ public class MainGUI {
 	private JList<Object> list = new JList<>();
 	private final JToggleButton tglbtnNewToggleButton = new JToggleButton("Filters");
 	private ArrayList<List<String>> Matrix;
+	private Merge_Rows Merge_Rows_Object = new Merge_Rows();
 
 	/**
 	 * Launch the application.
@@ -72,6 +76,7 @@ public class MainGUI {
 		Matrix = new ArrayList<>();
 		WrapObj = new Wrap();
 		FilterObj = new Filters();
+		AlgorithmsObj = new Algorithms();
 
 		JMenuBar menuBar = new JMenuBar();
 		frame.setJMenuBar(menuBar);
@@ -120,6 +125,7 @@ public class MainGUI {
 				if(Matrix.size() < 1) JOptionPane.showMessageDialog(null, "You have not selected any filters!");
 				else {
 					SaveFilesObj = new SaveFiles();
+					Merge_Rows_Object.Merge(Matrix);
 					SaveFilesObj.SavingCSV(Matrix); //TODO
 				}
 			}
@@ -132,6 +138,7 @@ public class MainGUI {
 				if(Matrix.size() < 1) JOptionPane.showMessageDialog(null, "You have not selected any filters!");
 				else{
 					SaveFilesObj = new SaveFiles();
+					Merge_Rows_Object.Merge(Matrix);
 					SaveFilesObj.SavingKML(Matrix); //TODO
 				}
 			}
@@ -179,7 +186,7 @@ public class MainGUI {
 				JOptionPane.showMessageDialog(null, "Database deleted");
 			}
 		});
-		btnClearData.setBounds(50, 122, 154, 30);
+		btnClearData.setBounds(48, 123, 154, 42);
 		frame.getContentPane().add(btnClearData);
 
 		JButton btnStart = new JButton("RUN");
@@ -188,20 +195,20 @@ public class MainGUI {
 				if(DLM.getSize() < 1) JOptionPane.showMessageDialog(null, "You have not uploaded any files!");
 				else{
 					WrapObj.OpenFiles(DLM);
-					Matrix = WrapObj.Filters(FilterObj);		
+					Matrix = WrapObj.Filters(FilterObj);	
 				}
 			}
 		});
 
 		btnStart.setFont(new Font("Verdana", Font.BOLD, 18));
-		btnStart.setBounds(214, 122, 154, 30);
+		btnStart.setBounds(212, 122, 154, 42);
 		frame.getContentPane().add(btnStart);
 
 		JToolBar toolBar = new JToolBar();
 		toolBar.setBounds(10, 175, 564, 16);
 		frame.getContentPane().add(toolBar);
 
-		JLabel lblRecords = new JLabel("Records Counts: ");
+		JLabel lblRecords = new JLabel("Records Counts: "); 
 		toolBar.add(lblRecords);
 
 		JLabel lblNewLabel = new JLabel(String.valueOf(Matrix.size()));
@@ -209,24 +216,22 @@ public class MainGUI {
 
 		tglbtnNewToggleButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				FilterObj = new Filters();
 				FilterObj.setVisible(true);
 			}
 		});
 		tglbtnNewToggleButton.setFont(new Font("Verdana", Font.BOLD, 16));
-		tglbtnNewToggleButton.setBounds(420, 17, 154, 30);
+		tglbtnNewToggleButton.setBounds(420, 17, 154, 42);
 		frame.getContentPane().add(tglbtnNewToggleButton);
 
 		JToggleButton tglbtnAlgorithms = new JToggleButton("Algorithms");
 		tglbtnAlgorithms.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				AlgorithmsObj = new Algorithms();
-				AlgorithmsObj.setVisible(true);
-
+				AlgorithmsObj.setVisible(true);	
+				AlgorithmsObj.AlgorithmsSetMatrix(Matrix);
 			}
 		});
 		tglbtnAlgorithms.setFont(new Font("Verdana", Font.BOLD, 16));
-		tglbtnAlgorithms.setBounds(420, 58, 154, 30);
+		tglbtnAlgorithms.setBounds(420, 70, 154, 42);
 		frame.getContentPane().add(tglbtnAlgorithms);
 	}
 }

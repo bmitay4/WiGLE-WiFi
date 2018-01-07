@@ -47,4 +47,11 @@ public class MatrixScan {
 		}
 		return false;
 	}
+	public List<String> MacLocation(ArrayList<List<String>> Matrix, String Mac){
+		this.APMatrix = new ArrayList<>();
+		this.APRow = new ArrayList<>();
+		LookForObj.setAPMatrix(Mac, this.APMatrix, Matrix);	//Generates a matrix with all the shows of the current mac
+		AlgoA.AlgoA(this.APRow, this.APMatrix, 4);	//Algo A, calculate the LLA
+		return AlgoA.TotalGDetails;
+	}
 }

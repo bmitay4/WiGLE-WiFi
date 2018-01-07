@@ -5,6 +5,8 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+
 import java.awt.Font;
 import javax.swing.JTabbedPane;
 import javax.swing.JCheckBox;
@@ -206,6 +208,7 @@ public class Filters extends JFrame {
 				checkBox[0] = chckbxTimeFilter.isSelected();
 				checkBox[1] = chckbxLocationFilter.isSelected();
 				checkBox[2] = chckbxIdFilter.isSelected();
+				JOptionPane.showMessageDialog(null, "Filter(s) loaded");
 				setVisible(false);
 			}
 		});

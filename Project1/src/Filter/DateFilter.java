@@ -11,6 +11,7 @@ import java.util.Scanner;
 import ExportKML.WriteKML;
 import File.WriteFile;
 import Row.Single_Row_After_Merge;
+import WiFi.GeneralWiFi;
 
 public class DateFilter {
 
@@ -21,6 +22,7 @@ public class DateFilter {
 	 */
 
 	Single_Row_After_Merge Single_Row_After_Merge_Object;
+	GeneralWiFi GeneralWiFiObj;
 	WriteKML WriteKML_Object;
 	WriteFile Write_File_Object = new WriteFile();
 
@@ -48,8 +50,8 @@ public class DateFilter {
 
 	public void dateFilter(ArrayList<List<String>> Matrix, String userStartDate, String userEndDate) {
 		for (int i = 1; i < Matrix.size(); i++) {
-			Single_Row_After_Merge_Object = new Single_Row_After_Merge(Matrix.get(i));
-			String currentlyTime = Single_Row_After_Merge_Object.getTime();
+			GeneralWiFiObj = new GeneralWiFi(Matrix.get(i));
+			String currentlyTime = GeneralWiFiObj.getDate();
 			if(!compareDate(userStartDate, userEndDate, currentlyTime)){
 				Matrix.remove(i);
 				i--;
