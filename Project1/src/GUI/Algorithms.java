@@ -8,7 +8,6 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import java.awt.Font;
 import javax.swing.JTabbedPane;
-import javax.swing.JCheckBox;
 import javax.swing.JSeparator;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
@@ -44,8 +43,6 @@ public class Algorithms extends JFrame {
 	public String Sig1, Sig2, Sig3;
 
 	boolean[] checkBox = new boolean[2];
-	boolean[] checkBox1 = new boolean[2];
-
 
 	/**
 	 * Launch the application.
@@ -83,7 +80,7 @@ public class Algorithms extends JFrame {
 		contentPane.add(lblFilters);
 
 		JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
-		tabbedPane.setBounds(10, 52, 292, 201);
+		tabbedPane.setBounds(10, 52, 292, 256);
 		contentPane.add(tabbedPane);
 
 		JPanel panel = new JPanel();
@@ -161,54 +158,47 @@ public class Algorithms extends JFrame {
 		txtSignal3.setBounds(223, 130, 54, 20);
 		panel_1.add(txtSignal3);
 
-		JCheckBox AlgoACheckbox = new JCheckBox("Algorithm A");
-		AlgoACheckbox.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		AlgoACheckbox.setBounds(10, 260, 125, 23);
-		contentPane.add(AlgoACheckbox);
-
-		JCheckBox AlgoBCheckbox = new JCheckBox("Algorithm B");
-		AlgoBCheckbox.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		AlgoBCheckbox.setBounds(141, 260, 125, 23);
-		contentPane.add(AlgoBCheckbox);
-
-		JSeparator separator = new JSeparator();
-		separator.setBounds(10, 45, 320, 2);
-		contentPane.add(separator);
-
-		JButton btnSaveChanges = new JButton("RUN");
-		btnSaveChanges.addActionListener(new ActionListener() {
+		JButton btnGenerateMacLocation = new JButton("Generate Mac Location");
+		btnGenerateMacLocation.setBounds(10, 167, 267, 32);
+		panel.add(btnGenerateMacLocation);
+		btnGenerateMacLocation.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Mac = txtMacNum.getText();
+				if(Mac.length() != 17) JOptionPane.showMessageDialog(null, "Please enter a valid Mac Address!");
+				else WrapObj.AlgorithmA(Matrix, Mac);
+			}
+		});
+		btnGenerateMacLocation.setFont(new Font("Verdana", Font.BOLD, 15));
+
+		JButton btnGenerateSelfLocation = new JButton("Generate Self Location");
+		btnGenerateSelfLocation.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
 				MacString = txtMacStr.getText();
 				uMac1 = Mac1.getText();
 				uMac2 = Mac2.getText();
 				uMac3 = Mac3.getText();
 				Sig1 = txtSignal1.getText();
 				Sig2 = txtSignal2.getText();
-				Sig3= txtSignal3.getText();
-				
-				checkBox[0] = AlgoACheckbox.isSelected();
-				checkBox[1] = AlgoBCheckbox.isSelected();
-				
-				checkBox1[0] = rdbtnByString.isSelected();
-				checkBox1[1] = rdbtnByValues.isSelected();
+				Sig3 = txtSignal3.getText();
 
-				if(checkBox[0] == true && checkBox[1] == true) JOptionPane.showMessageDialog(null, "You can not choose both algorithms");
-				else if(checkBox[0] == false && checkBox[1] == false) JOptionPane.showMessageDialog(null, "You did not choose any algorithm");
-				else if(checkBox1[0] == true && checkBox1[1] == true) JOptionPane.showMessageDialog(null, "You can not choose both algorithm B's methods");
-				
-				if(checkBox[0] == true && checkBox[1] == false) WrapObj.AlgorithmA(Matrix, Mac); //Algo A
-				if(checkBox[0] == false && checkBox[1] == true){ //Algo B
-					if(checkBox1[0] == true && checkBox1[1] == false) WrapObj.AlgorithmB1(Matrix, MacString); //Algo B1 
-					else if(checkBox1[0] == false && checkBox1[1] == true) WrapObj.AlgorithmB2(Matrix, uMac1, uMac2, uMac3, Sig1, Sig2, Sig3);//Algo B2
-				}
-				
+				checkBox[0] = rdbtnByString.isSelected();// for string
+				checkBox[1] = rdbtnByValues.isSelected();// for values
+
+				if(checkBox[0] && checkBox[1]) JOptionPane.showMessageDialog(null, "You can not choose both algorithm B's methods");
+				else if(!checkBox[0] && !checkBox[1]) JOptionPane.showMessageDialog(null, "You have not selected any of B's algorithms");
+				else if(checkBox[0] && !checkBox[1]) WrapObj.AlgorithmB1(Matrix, MacString); //Algo B1, by String
+				else if(!checkBox[0] && checkBox[1]) WrapObj.AlgorithmB2(Matrix, uMac1, uMac2, uMac3, Sig1, Sig2, Sig3);//Algo B2, by Values
+
 			}
 		});
-		btnSaveChanges.setFont(new Font("Verdana", Font.BOLD, 15));
-		btnSaveChanges.setBounds(171, 319, 153, 32);
-		contentPane.add(btnSaveChanges);
-		
+		btnGenerateSelfLocation.setFont(new Font("Verdana", Font.BOLD, 15));
+		btnGenerateSelfLocation.setBounds(10, 167, 267, 32);
+		panel_1.add(btnGenerateSelfLocation);
+
+		JSeparator separator = new JSeparator();
+		separator.setBounds(10, 45, 320, 2);
+		contentPane.add(separator);
+
 		JButton button = new JButton("Return");
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -216,7 +206,7 @@ public class Algorithms extends JFrame {
 			}
 		});
 		button.setFont(new Font("Verdana", Font.BOLD, 15));
-		button.setBounds(10, 319, 153, 32);
+		button.setBounds(85, 319, 153, 32);
 		contentPane.add(button);
 	}
 

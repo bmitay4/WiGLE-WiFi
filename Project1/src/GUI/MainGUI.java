@@ -16,12 +16,13 @@ import javax.swing.DefaultListModel;
 import javax.swing.JButton;
 import javax.swing.JList;
 import java.awt.Font;
-import javax.swing.JToolBar;
-
 import Row.Merge_Rows;
-
 import javax.swing.JToggleButton;
 import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.JPanel;
+
+import javax.swing.UIManager;
 
 public class MainGUI {
 
@@ -34,11 +35,14 @@ public class MainGUI {
 	private Wrap WrapObj;
 	private SaveFiles SaveFilesObj;
 
+	public String recordsCount;
 	public DefaultListModel<Object> DLM;
 	private JList<Object> list = new JList<>();
 	private final JToggleButton tglbtnNewToggleButton = new JToggleButton("Filters");
 	private ArrayList<List<String>> Matrix;
 	private Merge_Rows Merge_Rows_Object = new Merge_Rows();
+	private JTextField textField;
+	private JTextField txtNone;
 
 	/**
 	 * Launch the application.
@@ -70,6 +74,7 @@ public class MainGUI {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 600, 260);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		list.setBounds(10, 11, 400, 100);
 
 		list.setBorder(BorderFactory.createTitledBorder("Files Loaded"));
 		DLM = new DefaultListModel<>();
@@ -77,6 +82,9 @@ public class MainGUI {
 		WrapObj = new Wrap();
 		FilterObj = new Filters();
 		AlgorithmsObj = new Algorithms();
+
+		textField = new JTextField(); //records count
+		txtNone = new JTextField();//filter type
 
 		JMenuBar menuBar = new JMenuBar();
 		frame.setJMenuBar(menuBar);
@@ -174,11 +182,10 @@ public class MainGUI {
 		});
 		mnHelp.add(mntmAboutUs);
 		frame.getContentPane().setLayout(null);
-
-		list.setBounds(10, 11, 400, 100);
 		frame.getContentPane().add(list);
 
-		JButton btnClearData = new JButton("CLEAR DATA");
+		JButton btnClearData = new JButton("Clear DB");
+		btnClearData.setBounds(20, 122, 154, 42);
 		btnClearData.setFont(new Font("Verdana", Font.BOLD, 17));
 		btnClearData.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -186,52 +193,87 @@ public class MainGUI {
 				JOptionPane.showMessageDialog(null, "Database deleted");
 			}
 		});
-		btnClearData.setBounds(48, 123, 154, 42);
 		frame.getContentPane().add(btnClearData);
 
-		JButton btnStart = new JButton("RUN");
+		JButton btnStart = new JButton("Generate DB");
+		btnStart.setBounds(184, 122, 226, 42);
 		btnStart.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(DLM.getSize() < 1) JOptionPane.showMessageDialog(null, "You have not uploaded any files!");
 				else{
 					WrapObj.OpenFiles(DLM);
-					Matrix = WrapObj.Filters(FilterObj);	
+					Matrix = WrapObj.Filters(FilterObj);
+					textField.setText(String.valueOf(Matrix.size()));
+					if(FilterObj.checkBox[0]) txtNone.setText(txtNone.getText() + "Date, ");
+					if(FilterObj.checkBox[1]) txtNone.setText(txtNone.getText() + "Location, ");
+					if(FilterObj.checkBox[2]) txtNone.setText(txtNone.getText() + "ID, ");
+					if(!FilterObj.checkBox[0] && !FilterObj.checkBox[1] && !FilterObj.checkBox[2]) txtNone.setText("None");
+
+
+					JOptionPane.showMessageDialog(null, "DATABASE Created successfully!");
 				}
 			}
 		});
 
 		btnStart.setFont(new Font("Verdana", Font.BOLD, 18));
-		btnStart.setBounds(212, 122, 154, 42);
 		frame.getContentPane().add(btnStart);
+		tglbtnNewToggleButton.setBounds(420, 17, 154, 42);
 
-		JToolBar toolBar = new JToolBar();
-		toolBar.setBounds(10, 175, 564, 16);
-		frame.getContentPane().add(toolBar);
 
-		JLabel lblRecords = new JLabel("Records Counts: "); 
-		toolBar.add(lblRecords);
-
-		JLabel lblNewLabel = new JLabel(String.valueOf(Matrix.size()));
-		toolBar.add(lblNewLabel);
 
 		tglbtnNewToggleButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				FilterObj.setVisible(true);
+				if(DLM.getSize() < 1) JOptionPane.showMessageDialog(null, "You need to creat DB before you can select filters!");
+				else {
+					FilterObj.setVisible(true);
+				}
 			}
 		});
 		tglbtnNewToggleButton.setFont(new Font("Verdana", Font.BOLD, 16));
-		tglbtnNewToggleButton.setBounds(420, 17, 154, 42);
 		frame.getContentPane().add(tglbtnNewToggleButton);
 
 		JToggleButton tglbtnAlgorithms = new JToggleButton("Algorithms");
+		tglbtnAlgorithms.setBounds(420, 70, 154, 42);
 		tglbtnAlgorithms.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				AlgorithmsObj.setVisible(true);	
-				AlgorithmsObj.AlgorithmsSetMatrix(Matrix);
+				if(DLM.getSize() < 1) JOptionPane.showMessageDialog(null, "You need to creat DB before you can use algorithms!");
+				else {
+					AlgorithmsObj.setVisible(true);	
+					AlgorithmsObj.AlgorithmsSetMatrix(Matrix);
+				}
 			}
 		});
 		tglbtnAlgorithms.setFont(new Font("Verdana", Font.BOLD, 16));
-		tglbtnAlgorithms.setBounds(420, 70, 154, 42);
 		frame.getContentPane().add(tglbtnAlgorithms);
+
+		JLabel lblRecords = new JLabel("Records Counts:   ");
+		lblRecords.setBackground(UIManager.getColor("Button.light"));
+		lblRecords.setBounds(10, 175, 129, 18);
+		frame.getContentPane().add(lblRecords);
+
+		JLabel lblFilter = new JLabel("Selected filter:");
+		lblFilter.setBackground(UIManager.getColor("Button.light"));
+		lblFilter.setBounds(194, 175, 108, 18);
+		frame.getContentPane().add(lblFilter);
+
+		textField.setText("0");
+		textField.setFont(new Font("Tahoma", Font.BOLD, 11));
+		textField.setBackground(UIManager.getColor("Button.light"));
+		textField.setBounds(110, 175, 60, 18);
+		frame.getContentPane().add(textField);
+		textField.setColumns(10);
+
+		txtNone.setText(null);
+		txtNone.setFont(new Font("Tahoma", Font.BOLD, 11));
+		txtNone.setColumns(10);
+		txtNone.setBackground(UIManager.getColor("Button.light"));
+		txtNone.setBounds(280, 175, 152, 18);
+		frame.getContentPane().add(txtNone);
+
+		JPanel panel = new JPanel();
+		panel.setForeground(UIManager.getColor("Button.light"));
+		panel.setBackground(UIManager.getColor("Button.background"));
+		panel.setBounds(10, 176, 564, 14);
+		frame.getContentPane().add(panel);
 	}
 }
