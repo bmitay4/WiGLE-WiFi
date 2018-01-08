@@ -30,7 +30,7 @@ public class CombineAlgoA {	//Combine Algo1 in Algo2
 			removeOldGD(AP_Row);	//Remove old GD
 			setNewGD(AP_Row, AlgoA);	//Set new GD
 		}
-		
+
 		this.TotalGDetails = AP_Row;
 
 	}
@@ -40,17 +40,15 @@ public class CombineAlgoA {	//Combine Algo1 in Algo2
 		}
 	}
 	private void removeOldGD(List<String> APRow){
-		APRow.remove(0);	//Remove date and time
+		//		APRow.remove(0);	//Remove date and time
 		for (int i = 0; i < 3; i++) {
-			APRow.remove(1);
+			APRow.remove(2);
 		}
 	}
 	private void setNewGD(List<String> APRow, APSumDetalis AlgoA){
-		for (int i = 0; i < 3; i++) {
-			APRow.add(1, String.valueOf(AlgoA.getAlt()));
-			APRow.add(1, String.valueOf(AlgoA.getLon()));
-			APRow.add(1, String.valueOf(AlgoA.getLat()));
-		}
+		APRow.add(2, String.valueOf(AlgoA.getAlt()));
+		APRow.add(2, String.valueOf(AlgoA.getLon()));
+		APRow.add(2, String.valueOf(AlgoA.getLat()));
 	}
 	private void setNewGD2(APSumDetalis AlgoA){
 		this.AP_Row.add(String.valueOf(AlgoA.getAlt()));

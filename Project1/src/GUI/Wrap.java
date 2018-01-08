@@ -48,7 +48,7 @@ public class Wrap{
 	}
 	public void AlgorithmB2(ArrayList<List<String>> Matrix, String Mac1, String Mac2, String Mac3, String Sig1, String Sig2, String Sig3){
 		TempGD = MatrixScanObj1.byValues(Matrix, Mac1, Mac2, Mac3, Sig1, Sig2, Sig3);
-		JOptionPane.showMessageDialog(null, "Your Location:\nLatitude:   "+TempGD.get(1)+"\nLongitude:   "+TempGD.get(2)+"\nAltitude:   "+TempGD.get(3));
+		JOptionPane.showMessageDialog(null, "Your Location:\nLatitude:   "+TempGD.get(2)+"\nLongitude:   "+TempGD.get(3)+"\nAltitude:   "+TempGD.get(4));
 	}
 
 	public ArrayList<List<String>> Filters(Filters FilterObj){
