@@ -32,9 +32,9 @@ Let's go!
 
 ## Authors
 
-* **Hani Bakbani ** - [GitHub](https://github.com/hanibak)
-* **Avital Israeli ** -  [GitHub](https://github.com/avital477)
-* **Itay Ben Moshe ** -  [GitHub](https://github.com/itaybm)
+* <b>Hani Bakbani</b> - [GitHub](https://github.com/hanibak)
+* <b>Avital Israeli</b> -  [GitHub](https://github.com/avital477)
+* <b>Itay Ben Moshe</b> -  [GitHub](https://github.com/itaybm)
 
 Hani Bakbani - GitHub
 Avital Israeli - GitHub
