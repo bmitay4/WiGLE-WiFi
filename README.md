@@ -36,10 +36,6 @@ Let's go!
 * <b>Avital Israeli</b> -  [GitHub](https://github.com/avital477)
 * <b>Itay Ben Moshe</b> -  [GitHub](https://github.com/itaybm)
 
-Hani Bakbani - GitHub
-Avital Israeli - GitHub
-Itay Ben Moshe - GitHub
-
 Credits for our lecturers: Professor Boaz Ben Moshe, Dr. Erel David Segal-Halevi, Mr. Erlich Asaf
 
 
