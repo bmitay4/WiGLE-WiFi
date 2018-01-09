@@ -190,6 +190,8 @@ public class MainGUI {
 		btnClearData.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				DLM.clear();
+				txtNone.setText(null);
+				textField.setText("0");
 				JOptionPane.showMessageDialog(null, "Database deleted");
 			}
 		});
@@ -208,8 +210,6 @@ public class MainGUI {
 					if(FilterObj.checkBox[1]) txtNone.setText(txtNone.getText() + "Location, ");
 					if(FilterObj.checkBox[2]) txtNone.setText(txtNone.getText() + "ID, ");
 					if(!FilterObj.checkBox[0] && !FilterObj.checkBox[1] && !FilterObj.checkBox[2]) txtNone.setText("None");
-
-
 					JOptionPane.showMessageDialog(null, "DATABASE Created successfully!");
 				}
 			}
