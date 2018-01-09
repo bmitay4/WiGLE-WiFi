@@ -6,7 +6,6 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
-
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.List;
@@ -17,12 +16,14 @@ import javax.swing.JButton;
 import javax.swing.JList;
 import java.awt.Font;
 import Row.Merge_Rows;
+import Threads.State;
 import javax.swing.JToggleButton;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 import javax.swing.JPanel;
-
 import javax.swing.UIManager;
+import java.awt.event.MouseMotionAdapter;
+import java.awt.event.MouseEvent;
 
 public class MainGUI {
 
@@ -34,6 +35,7 @@ public class MainGUI {
 	private Algorithms AlgorithmsObj;
 	private Wrap WrapObj;
 	private SaveFiles SaveFilesObj;
+	private State StateObj;
 
 	public String recordsCount;
 	public DefaultListModel<Object> DLM;
@@ -43,7 +45,6 @@ public class MainGUI {
 	private Merge_Rows Merge_Rows_Object = new Merge_Rows();
 	private JTextField textField;
 	private JTextField txtNone;
-
 	/**
 	 * Launch the application.
 	 */
@@ -72,6 +73,7 @@ public class MainGUI {
 	 */
 	private void initialize() {
 		frame = new JFrame();
+
 		frame.setBounds(100, 100, 600, 260);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		list.setBounds(10, 11, 400, 100);
@@ -82,6 +84,7 @@ public class MainGUI {
 		WrapObj = new Wrap();
 		FilterObj = new Filters();
 		AlgorithmsObj = new Algorithms();
+		StateObj = new State("Thread");
 
 		textField = new JTextField(); //records count
 		txtNone = new JTextField();//filter type
@@ -205,12 +208,31 @@ public class MainGUI {
 				else{
 					WrapObj.OpenFiles(DLM);
 					Matrix = WrapObj.Filters(FilterObj);
+
+					StateObj.setState(Matrix, DLM);
+
+					Thread State = new Thread(StateObj);
+					State.start();
 					textField.setText(String.valueOf(Matrix.size()));
 					if(FilterObj.checkBox[0]) txtNone.setText(txtNone.getText() + "Date, ");
 					if(FilterObj.checkBox[1]) txtNone.setText(txtNone.getText() + "Location, ");
 					if(FilterObj.checkBox[2]) txtNone.setText(txtNone.getText() + "ID, ");
 					if(!FilterObj.checkBox[0] && !FilterObj.checkBox[1] && !FilterObj.checkBox[2]) txtNone.setText("None");
 					JOptionPane.showMessageDialog(null, "DATABASE Created successfully!");
+				}
+			}
+		});
+		frame.getContentPane().addMouseMotionListener(new MouseMotionAdapter() {
+			@Override
+			public void mouseMoved(MouseEvent arg0) {
+				if(StateObj.flag){
+					//NEW DLM
+					DLM = StateObj.DLM;
+					//CLEAR DB
+					Matrix.clear();
+					//GENERATE DB 
+					btnStart.doClick();
+					StateObj.flag = false;
 				}
 			}
 		});
@@ -243,6 +265,7 @@ public class MainGUI {
 				}
 			}
 		});
+
 		tglbtnAlgorithms.setFont(new Font("Verdana", Font.BOLD, 16));
 		frame.getContentPane().add(tglbtnAlgorithms);
 
