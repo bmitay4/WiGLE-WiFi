@@ -53,7 +53,7 @@ public class Welcome extends JFrame {
 		JTextArea txtrBlaBlaBla = new JTextArea();
 		txtrBlaBlaBla.setBackground(UIManager.getColor("Button.background"));
 		txtrBlaBlaBla.setFont(new Font("Verdana", Font.BOLD, 12));
-		txtrBlaBlaBla.setText("This software do...\r\n\r\nBLA BLA BLA\r\n\r\nShould be here an instruction or some sort of it\r\n\r\nBLA BLA BLA");
+		txtrBlaBlaBla.setText("Welcome to \"NAME-OF-APP\"!\r\n\r\nThis Application enables the collection of geographic information, the production of \r\ninsights from this information, and the presentation of information in graphical\r\ntools, using WiGLE WiFi Wardriving mobile app.\r\n\r\nTo start the process, upload CSV files to the system, from File -> Open File/Folder.\r\n\r\nThen, you can select a filter (or not select) and create a database.\r\n\r\nOnce the database is present, you can do more by clicking on Algorithms.\r\n\r\nFeel free to save this information as a CSV file or as a KML file that can be opened\r\nby Google Maps.\r\n\r\nThe team wishes you effective use of the software.");
 		txtrBlaBlaBla.setBounds(10, 51, 554, 300);
 		contentPane.add(txtrBlaBlaBla);
 	}
