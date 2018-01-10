@@ -8,11 +8,13 @@ public class AllTests {
 
 	@Test
 	public void OpenFile() {
+		//TODO
 		fail("Not yet implemented");
 	}
 	
 	@Test
 	public void OpenFolder() {
+		//TODO
 		fail("Not yet implemented");
 	}
 
