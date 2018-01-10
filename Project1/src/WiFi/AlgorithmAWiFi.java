@@ -4,10 +4,10 @@ import java.util.List;
 
 public class AlgorithmAWiFi {
 
-	private int Signal;
-	private double Lat;
-	private double Lon;
-	private double Alt;
+	int Signal;
+	double Lat;
+	double Lon;
+	double Alt;
 	List<String> WiFi_Row;
 
 	public AlgorithmAWiFi(List<String> WiFi_Row){
