@@ -42,7 +42,7 @@ public class Filters extends JFrame {
 	public String minLat, maxLat;
 	public String minLon, maxLon;
 	public String minAlt, maxAlt;
-	public boolean[] checkBox = new boolean[3];
+	public boolean[] checkBox = new boolean[4];
 
 	/**
 	 * Launch the application.
@@ -186,8 +186,13 @@ public class Filters extends JFrame {
 
 		JCheckBox chckbxIdFilter = new JCheckBox("ID Filter");
 		chckbxIdFilter.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		chckbxIdFilter.setBounds(240, 189, 110, 23);
+		chckbxIdFilter.setBounds(240, 189, 85, 23);
 		contentPane.add(chckbxIdFilter);
+		
+		JCheckBox chckbxNoFilter = new JCheckBox("NO Filter");
+		chckbxNoFilter.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		chckbxNoFilter.setBounds(327, 189, 110, 23);
+		contentPane.add(chckbxNoFilter);
 
 		JSeparator separator = new JSeparator();
 		separator.setBounds(10, 45, 414, 2);
@@ -208,8 +213,9 @@ public class Filters extends JFrame {
 				checkBox[0] = chckbxTimeFilter.isSelected();
 				checkBox[1] = chckbxLocationFilter.isSelected();
 				checkBox[2] = chckbxIdFilter.isSelected();
+				checkBox[3] = chckbxNoFilter.isSelected();
 
-				if(checkBox[0] == false && checkBox[1] == false && checkBox[2] == false) JOptionPane.showMessageDialog(null, "You have not selected any filters");
+				if(checkBox[3] == false && checkBox[0] == false && checkBox[1] == false && checkBox[2] == false) JOptionPane.showMessageDialog(null, "You have not selected any filters");
 				else{
 					JOptionPane.showMessageDialog(null, "Filter(s) loaded");
 					setVisible(false);
@@ -229,5 +235,6 @@ public class Filters extends JFrame {
 		btnReturn.setFont(new Font("Verdana", Font.BOLD, 15));
 		btnReturn.setBounds(10, 219, 160, 32);
 		contentPane.add(btnReturn);
+		
 	}
 }

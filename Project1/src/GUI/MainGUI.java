@@ -22,6 +22,7 @@ import javax.swing.JLabel;
 import javax.swing.JTextField;
 import javax.swing.JPanel;
 import javax.swing.UIManager;
+
 import java.awt.event.MouseMotionAdapter;
 import java.awt.event.MouseEvent;
 
@@ -36,6 +37,7 @@ public class MainGUI {
 	private Wrap WrapObj;
 	private SaveFiles SaveFilesObj;
 	private State StateObj;
+	private DB DBObj;
 
 	public String recordsCount;
 	public DefaultListModel<Object> DLM;
@@ -127,13 +129,24 @@ public class MainGUI {
 		});
 		mnFile.add(mntmOpenFolder);
 
+		JMenuItem mntmImportDb = new JMenuItem("Import DB..");
+		mntmImportDb.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				DBObj = new DB();
+				DBObj.setVisible(true);
+				DLM.addElement("(SQL DataBase) host:  5.29.193.52:3306");
+				list.setModel(DLM);
+			}
+		});
+		mnFile.add(mntmImportDb);
+
 		JMenu mnSaveAs = new JMenu("Save As");
 		mnFile.add(mnSaveAs);
 
 		JMenuItem mntmCsvFile = new JMenuItem("CSV File");
 		mntmCsvFile.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {	//Saving the united CSV file
-				if(Matrix.size() < 1) JOptionPane.showMessageDialog(null, "You have not selected any filters!");
+				if(Matrix.size() < 1) JOptionPane.showMessageDialog(null, "You have not created a database yet!");
 				else {
 					SaveFilesObj = new SaveFiles();
 					Merge_Rows_Object.Merge(Matrix);
@@ -146,7 +159,7 @@ public class MainGUI {
 		JMenuItem mntmKmlFile = new JMenuItem("KML File");
 		mntmKmlFile.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				if(Matrix.size() < 1) JOptionPane.showMessageDialog(null, "You have not selected any filters!");
+				if(Matrix.size() < 1) JOptionPane.showMessageDialog(null, "You have not created a database yet!");
 				else{
 					SaveFilesObj = new SaveFiles();
 					Merge_Rows_Object.Merge(Matrix);

@@ -23,14 +23,17 @@ public class Wrap{
 	private MatrixScan MatrixScanObj = new MatrixScan();
 	private OpenFile OpenFileObj = new OpenFile();
 	private Extends_2_B.MatrixScan MatrixScanObj1 = new Extends_2_B.MatrixScan();
+
 	ArrayList<List<String>> Matrix = new ArrayList<>();
 	List<String> TempGD = new ArrayList<>();
+	boolean flag = false;
 	
 
 	public void OpenFiles(DefaultListModel<Object> DLM){
 		for (int i = 0; i < DLM.size(); i++) {
 			String filename = (String)DLM.get(i);
 			if(filename.endsWith(".csv")) OpenFolderObj.addSingleMatrix(this.Matrix, filename);
+			else if(filename.contains("(SQL DataBase)")); // Do nothing if it's SQL path
 			else{
 				OpenFolderObj.addFolderMatrix(this.Matrix, filename);
 			}
@@ -57,4 +60,14 @@ public class Wrap{
 		if(FilterObj.checkBox[2]) IDFilterObj.IDfilter(this.Matrix,  FilterObj.ID); //ID Filter
 		return this.Matrix;
 	}
+	public void DB(ArrayList<List<String>> Matrix){
+		updateMatrix(Matrix);
+		System.out.println(Matrix.size());
+	}
+	public void updateMatrix(ArrayList<List<String>> tempMatrix){
+		for (int i = 0; i < tempMatrix.size(); i++) {
+			this.Matrix.add(tempMatrix.get(i));
+		}
+	}
+	
 }

@@ -48,6 +48,7 @@ public class State implements Runnable{
 		for (int i = 0; i < DLM.size(); i++) {
 			String filename = (String)DLM.get(i);
 			if(filename.endsWith(".csv")) OpenFolderObj.addSingleMatrix(this.TempMatrix, filename);
+			else if(filename.contains("(SQL DataBase)")); // Do nothing if it's SQL path
 			else{
 				OpenFolderObj.addFolderMatrix(this.TempMatrix, filename);
 			}
