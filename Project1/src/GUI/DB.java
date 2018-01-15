@@ -107,7 +107,7 @@ public class DB extends JFrame {
 
 		textport = new JTextField();
 		textport.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		textport.setText("3306");
+		textport.setText("3306/oop_course_ariel");
 		textport.setColumns(10);
 		textport.setBounds(299, 8, 100, 22);
 		panel.add(textport);

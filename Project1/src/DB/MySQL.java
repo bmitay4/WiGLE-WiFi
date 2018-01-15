@@ -37,10 +37,7 @@ public class MySQL {
 			}
 			PreparedStatement pst = conn.prepareStatement("SELECT * FROM ex4_db");
 			rs = pst.executeQuery();
-			if(true)System.out.println(2);
-			
-			System.out.println(9);
-			System.out.println(3);
+
 			while(rs.next()){
 				int index = 0;
 				int SQLIndex = 2;
@@ -69,7 +66,6 @@ public class MySQL {
 					}
 				}
 				Matrix.add(Temp);
-				System.out.println(Matrix.size());
 
 			}
 			updateMatrix(Matrix);
