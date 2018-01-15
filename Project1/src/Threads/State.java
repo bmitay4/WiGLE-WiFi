@@ -31,7 +31,7 @@ public class State implements Runnable{
 		while(true){
 			flag = false;
 			try {
-				Thread.sleep(5000);
+				Thread.sleep(5000);	//Every 5 seconds checks for changes 
 				this.TempMatrix.clear();
 				OpenFiles(DLM);
 			} catch (InterruptedException e) {
