@@ -17,8 +17,6 @@ import javax.swing.JTextField;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
 import java.awt.event.ActionEvent;
 
 public class DB extends JFrame {
@@ -32,9 +30,6 @@ public class DB extends JFrame {
 	private JTextField txtRoot;
 	private JTextField textport;
 	private JTextField textpass;
-	public ArrayList<List<String>> Matrix;
-	private Wrap WrapObj;
-
 
 	/**
 	 * Launch the application.
@@ -62,7 +57,6 @@ public class DB extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
-		WrapObj = new Wrap();
 		JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
 		tabbedPane.setBounds(10, 52, 414, 146);
 		contentPane.add(tabbedPane);
@@ -127,12 +121,9 @@ public class DB extends JFrame {
 		JButton btnLoadDatabas = new JButton("Load DataBase");
 		btnLoadDatabas.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-
 				try {
 					MySQL.main(texthost.getText(), textport.getText(), txtRoot.getText(), textpass.getText());
 					JOptionPane.showMessageDialog(null, "DB loaded successfully");
-					Matrix = MySQL.ansMatrix;
-					WrapObj.DB(Matrix);
 					setVisible(false);
 				} catch (SQLException e1){
 				}

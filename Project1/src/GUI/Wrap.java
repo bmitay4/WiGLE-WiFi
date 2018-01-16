@@ -6,6 +6,7 @@ import java.util.List;
 import javax.swing.DefaultListModel;
 import javax.swing.JOptionPane;
 
+import DB.MySQL;
 import Extends_2_A.MatrixScan;
 
 import File.OpenFile;
@@ -25,11 +26,11 @@ public class Wrap{
 	private Extends_2_B.MatrixScan MatrixScanObj1 = new Extends_2_B.MatrixScan();
 
 	ArrayList<List<String>> Matrix = new ArrayList<>();
-	List<String> TempGD = new ArrayList<>();
-	boolean flag = false;
-	
+
+	List<String> TempGD = new ArrayList<>();	
 
 	public void OpenFiles(DefaultListModel<Object> DLM){
+		updateMatrix(MySQL.ansMatrix);
 		for (int i = 0; i < DLM.size(); i++) {
 			String filename = (String)DLM.get(i);
 			if(filename.endsWith(".csv")) OpenFolderObj.addSingleMatrix(this.Matrix, filename);
@@ -60,14 +61,15 @@ public class Wrap{
 		if(FilterObj.checkBox[2]) IDFilterObj.IDfilter(this.Matrix,  FilterObj.ID); //ID Filter
 		return this.Matrix;
 	}
-	public void DB(ArrayList<List<String>> Matrix){
-		updateMatrix(Matrix);
-		System.out.println(Matrix.size());
+	public void DB(){
+		updateMatrix(MySQL.ansMatrix);
+
 	}
 	public void updateMatrix(ArrayList<List<String>> tempMatrix){
 		for (int i = 0; i < tempMatrix.size(); i++) {
 			this.Matrix.add(tempMatrix.get(i));
 		}
+
 	}
-	
+
 }

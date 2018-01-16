@@ -87,6 +87,7 @@ public class MainGUI {
 		FilterObj = new Filters();
 		AlgorithmsObj = new Algorithms();
 		StateObj = new State("Thread");
+		DBObj = new DB();
 
 		textField = new JTextField(); //records count
 		txtNone = new JTextField();//filter type
@@ -132,8 +133,8 @@ public class MainGUI {
 		JMenuItem mntmImportDb = new JMenuItem("Import DB..");
 		mntmImportDb.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				DBObj = new DB();
 				DBObj.setVisible(true);
+				WrapObj.DB();
 				DLM.addElement("(SQL DataBase) host:  5.29.193.52:3306");
 				list.setModel(DLM);
 			}

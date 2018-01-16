@@ -73,7 +73,6 @@ public class MySQL {
 			e.printStackTrace();
 			JOptionPane.showMessageDialog(null, "An error occurred\nPlease check your login information");
 		}
-		System.out.println(ansMatrix.size());
 		conn.close();
 		stmt.close();
 		rs.close();
