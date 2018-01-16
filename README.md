@@ -42,7 +42,7 @@ Let's go!
 * <b>Avital Israeli</b> -  [GitHub](https://github.com/avital477)
 * <b>Itay Ben Moshe</b> -  [GitHub](https://github.com/itaybm)
 
-Credits for our lecturers: [Professor Boaz Ben Moshe](https://github.com/benmoshe), [Dr. Erel David Segal-Halevi (https://github.com/erelsgl), Mr. Erlich Asaf
+Credits for our lecturers: [Professor Boaz Ben Moshe](https://github.com/benmoshe), [Dr. Erel David Segal-Halevi] (https://github.com/erelsgl), Mr. Erlich Asaf
 
 ## License
 
