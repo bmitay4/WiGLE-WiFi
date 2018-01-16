@@ -24,7 +24,7 @@ In order to solve all these questions and more, we have built an application tha
 
 Follow our <b>[Guide](https://github.com/itaybm/ArielOOP/wiki)</b> to run the software properly.
 
-Download the software from <b>[Guide](https://github.com/itaybm/ArielOOP/blob/master/Project1/github-project.jar)</b> (Right Click -> Save As)
+Download the software from <b>[here](https://github.com/itaybm/ArielOOP/blob/master/Project1/github-project.jar)</b> (Right Click -> Save As)
 
 Let's go!
 
