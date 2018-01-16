@@ -34,7 +34,6 @@ public class Wrap{
 		for (int i = 0; i < DLM.size(); i++) {
 			String filename = (String)DLM.get(i);
 			if(filename.endsWith(".csv")) OpenFolderObj.addSingleMatrix(this.Matrix, filename);
-			else if(filename.contains("(SQL DataBase)")); // Do nothing if it's SQL path
 			else{
 				OpenFolderObj.addFolderMatrix(this.Matrix, filename);
 			}
@@ -69,7 +68,6 @@ public class Wrap{
 		for (int i = 0; i < tempMatrix.size(); i++) {
 			this.Matrix.add(tempMatrix.get(i));
 		}
-
 	}
 
 }

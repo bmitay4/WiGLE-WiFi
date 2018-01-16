@@ -6,6 +6,7 @@ import java.util.List;
 import javax.swing.DefaultListModel;
 import javax.swing.JOptionPane;
 
+import DB.MySQL;
 import Folder.OpenFolder;
 
 public class State implements Runnable{
@@ -45,10 +46,10 @@ public class State implements Runnable{
 		}
 	}
 	private void OpenFiles(DefaultListModel<Object> DLM){
+		updateMatrix(MySQL.ansMatrix);
 		for (int i = 0; i < DLM.size(); i++) {
 			String filename = (String)DLM.get(i);
 			if(filename.endsWith(".csv")) OpenFolderObj.addSingleMatrix(this.TempMatrix, filename);
-			else if(filename.contains("(SQL DataBase)")); // Do nothing if it's SQL path
 			else{
 				OpenFolderObj.addFolderMatrix(this.TempMatrix, filename);
 			}
@@ -66,6 +67,11 @@ public class State implements Runnable{
 			e.printStackTrace();
 		}
 
+	}
+	public void updateMatrix(ArrayList<List<String>> tempMatrix){
+		for (int i = 0; i < tempMatrix.size(); i++) {
+			this.TempMatrix.add(tempMatrix.get(i));
+		}
 	}
 
 }

@@ -41,6 +41,7 @@ public class MainGUI {
 
 	public String recordsCount;
 	public DefaultListModel<Object> DLM;
+	public DefaultListModel<Object> DBDLM;
 	private JList<Object> list = new JList<>();
 	private final JToggleButton tglbtnNewToggleButton = new JToggleButton("Filters");
 	private ArrayList<List<String>> Matrix;
@@ -82,6 +83,7 @@ public class MainGUI {
 
 		list.setBorder(BorderFactory.createTitledBorder("Files Loaded"));
 		DLM = new DefaultListModel<>();
+		DBDLM = new DefaultListModel<>();
 		Matrix = new ArrayList<>();
 		WrapObj = new Wrap();
 		FilterObj = new Filters();
@@ -136,8 +138,8 @@ public class MainGUI {
 				DBObj.setVisible(true);
 				try{
 					WrapObj.DB();
-					DLM.addElement("(SQL DataBase) host:  5.29.193.52:3306");
-					list.setModel(DLM);
+					DBDLM.addElement("(SQL DataBase) host:  5.29.193.52:3306");
+					list.setModel(DBDLM);
 				} catch (Exception e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
@@ -212,6 +214,7 @@ public class MainGUI {
 		btnClearData.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				DLM.clear();
+				DBDLM.clear();
 				txtNone.setText(null);
 				textField.setText("0");
 				JOptionPane.showMessageDialog(null, "Database deleted");
@@ -223,7 +226,7 @@ public class MainGUI {
 		btnStart.setBounds(184, 122, 226, 42);
 		btnStart.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				if(DLM.getSize() < 1) JOptionPane.showMessageDialog(null, "You have not uploaded any files!");
+				if(DLM.getSize() < 1 && DBDLM.getSize() < 1) JOptionPane.showMessageDialog(null, "You have not uploaded any files!");
 				else{
 					WrapObj.OpenFiles(DLM);
 					Matrix = WrapObj.Filters(FilterObj);
