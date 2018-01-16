@@ -134,9 +134,14 @@ public class MainGUI {
 		mntmImportDb.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				DBObj.setVisible(true);
-				WrapObj.DB();
-				DLM.addElement("(SQL DataBase) host:  5.29.193.52:3306");
-				list.setModel(DLM);
+				try{
+					WrapObj.DB();
+					DLM.addElement("(SQL DataBase) host:  5.29.193.52:3306");
+					list.setModel(DLM);
+				} catch (Exception e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
 			}
 		});
 		mnFile.add(mntmImportDb);
