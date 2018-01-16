@@ -22,6 +22,8 @@ Have you ever wondered how many wireless networks are around you? And what is th
 
 In order to solve all these questions and more, we have built an application that will show you your exact location, even in difficult terrain or in underground areas.
 
+Follow <b>[our Guide](https://github.com/itaybm/ArielOOP/wiki)</b> to run the software properly.
+
 Let's go!
 
 ## Built With
