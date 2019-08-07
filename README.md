@@ -22,9 +22,9 @@ Have you ever wondered how many wireless networks are around you? And what is th
 
 In order to solve all these questions and more, we have built an application that will show you your exact location, even in difficult terrain or in underground areas.
 
-Follow our <b>[Wiki Guide](https://github.com/itaybm/ArielOOP/wiki)</b> to run the software properly.
+Follow our <b>[Wiki Guide](https://github.com/bmitay4/WiGLE-WiFi/wiki)</b> to run the software properly.
 
-Download the software from <b>[here](https://github.com/itaybm/ArielOOP/blob/master/Project1/github-project.jar)</b> (Right Click -> Save As)
+Download the software from <b>[here](https://github.com/bmitay4/WiGLE-WiFi/blob/master/github-project.jar)</b> (Right Click -> Save As)
 
 Let's go!
 
@@ -40,7 +40,7 @@ Let's go!
 
 * <b>Hani Bakbani</b> - [GitHub](https://github.com/hanibak)
 * <b>Avital Israeli</b> -  [GitHub](https://github.com/avital477)
-* <b>Itay Ben Moshe</b> -  [GitHub](https://github.com/itaybm)
+* <b>Itay Ben Moshe</b> -  [GitHub](https://github.com/bmitay4)
 
 Credits for our lecturers: [Professor Boaz Ben Moshe](https://github.com/benmoshe), [Dr. Erel David Segal-Halevi](https://github.com/erelsgl) and Mr. Erlich Asaf
 
